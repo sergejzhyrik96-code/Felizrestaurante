@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": "Главная",
+    "menu": "Меню",
+    "gastroBoxes": "Гастро боксы",
+    "catering": "Кейтеринг",
+    "gallery": "Галерея",
+    "reservations": "Забронировать стол",
+    "cart": "Корзина"
+  },
+  "menu": {
+    "title": "Наше меню",
+    "titleMain": "Наше",
+    "titleHighlight": "меню",
+    "subtitle": "Карта",
+    "loading": "Загрузка меню…",
+    "error": "Ошибка загрузки меню.",
+    "emptyCategory": "В этой категории пока нет блюд.",
+    "categories": {
+      "tapas": "Тапас",
+      "ensaladas": "Салаты",
+      "arroces": "Рисовые блюда",
+      "carnes": "Мясо",
+      "pescados": "Рыба",
+      "postres": "Десерты",
+      "bebidas": "Напитки",
+      "complementos": "Гарниры",
+      "menu_infantil": "Детское меню"
+    }
+  },
+  "gastroBoxes": {
+    "title": "Гастро боксы",
+    "subtitle": "Доставка",
+    "description": "Отобранные гастрономические боксы с доставкой. Идеально для компании.",
+    "orderButton": "Заказать",
+    "serves": "персон"
+  },
+  "gallery": {
+    "title": "Галерея",
+    "subtitle": "Визуальное путешествие"
+  },
+  "reservation": {
+    "title": "Забронировать стол",
+    "subtitle": "Ваш вечер ждёт",
+    "subtitleMain": "Ваш вечер",
+    "subtitleHighlight": "ждёт",
+    "selectDate": "Выберите дату",
+    "selectTime": "Выберите время",
+    "guests": "Гости",
+    "yourDetails": "Ваши данные",
+    "name": "Имя",
+    "phone": "Телефон",
+    "email": "Email",
+    "specialRequests": "Особые пожелания",
+    "summary": "Итого по заявке",
+    "confirm": "Подтвердить бронь",
+    "thankYou": "Спасибо!",
+    "thankYouMessage": "Ваша заявка принята. Мы пришлём подтверждение на почту.",
+    "makeAnother": "Забронировать снова",
+    "namePlaceholder": "Ваше имя",
+    "phonePlaceholder": "+34 600 000 000",
+    "emailPlaceholder": "tu@email.com",
+    "commentsPlaceholder": "Аллергии, пожелания по столу, повод…"
+  },
+  "footer": {
+    "tagline": "Гастрономический опыт в Валенсии",
+    "navigate": "Навигация",
+    "hours": "Часы работы",
+    "contact": "Контакты",
+    "hoursWeek": "Пн – Пт: 12:00 – 23:00",
+    "hoursWeekend": "Сб – Вс: 11:00 – 00:00",
+    "address": "Plaza Vannes, 7 (bajo izq.), Валенсия, Испания",
+    "rights": "Все права защищены."
+  },
+  "home": {
+    "services": "Услуги",
+    "beyondRestaurant": "Не только ресторан",
+    "catering": "Кейтеринг",
+    "cateringDesc": "Премиальный кейтеринг для мероприятий, свадеб и корпоративов.",
+    "gastroBoxes": "Гастро боксы",
+    "gastroBoxesDesc": "Гастрономические боксы с доставкой на дом.",
+    "reservations": "Бронирование",
+    "reservationsDesc": "Забронируйте стол и насладитесь премиальной кухней.",
+    "explore": "Смотреть",
+    "ctaTitle": "Готовы к незабываемому вечеру?",
+    "ctaSubtitle": "Забронируйте стол — мы создадим для вас особенный вечер.",
+    "reserveNow": "Забронировать"
+  },
+  "hero": {
+    "badge": "Гастро-опыт · Валенсия",
+    "headline": "Где каждый вкус рассказывает историю",
+    "headlinePart1": "Где каждый",
+    "headlineHighlight": "вкус",
+    "headlinePart2": "рассказывает историю",
+    "subheadline": "Современная гастрономия: средиземноморские вкусы и авторская кухня в сердце Валенсии.",
+    "reserveTable": "Забронировать стол",
+    "viewMenu": "Меню",
+    "orderOnline": "Заказать"
+  },
+  "common": {
+    "addToCart": "В корзину",
+    "browseMenu": "Смотреть меню"
+  },
+  "cart": {
+    "title": "Корзина",
+    "empty": "Корзина пуста",
+    "emptyHint": "Добавьте блюда из меню или гастро боксов.",
+    "placeOrder": "Оформить заказ",
+    "total": "Итого",
+    "orderSuccess": "Заказ оформлен! 🎉"
+  }
+}

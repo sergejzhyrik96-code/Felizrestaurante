@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 33% 98%;
+    --foreground: 20 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 15% 15%;
+
+    --primary: 28 78% 48%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 35 30% 94%;
+    --secondary-foreground: 20 15% 25%;
+
+    --muted: 35 20% 93%;
+    --muted-foreground: 20 10% 45%;
+
+    --accent: 28 78% 48%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 30 15% 88%;
+    --input: 30 15% 88%;
+    --ring: 28 78% 48%;
+
+    --radius: 0.75rem;
+
+    --gold: 42 70% 55%;
+    --gold-light: 42 60% 75%;
+    --warm-cream: 40 33% 96%;
+    --warm-stone: 30 10% 55%;
+
+    --gradient-gold: linear-gradient(135deg, hsl(28 78% 48%), hsl(42 70% 55%));
+    --gradient-warm: linear-gradient(180deg, hsl(40 33% 98%) 0%, hsl(35 30% 94%) 100%);
+    --gradient-hero: linear-gradient(180deg, transparent 0%, hsl(20 15% 15% / 0.7) 100%);
+    --shadow-luxury: 0 20px 60px hsl(20 15% 15% / 0.08);
+    --shadow-card: 0 4px 24px hsl(20 15% 15% / 0.06);
+    --shadow-hover: 0 12px 40px hsl(20 15% 15% / 0.12);
+    --shadow-glow: 0 0 40px hsl(28 78% 48% / 0.15);
+
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Cormorant Garamond', serif;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-gold);
+  }
+
+  .bg-gradient-gold {
+    background-image: var(--gradient-gold);
+  }
+
+  .bg-gradient-hero {
+    background-image: var(--gradient-hero);
+  }
+
+  .shadow-luxury {
+    box-shadow: var(--shadow-luxury);
+  }
+
+  .shadow-card-hover {
+    box-shadow: var(--shadow-hover);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl;
+    border: 1px solid hsl(0 0% 100% / 0.3);
+  }
+
+  .glass-dark {
+    @apply bg-black/30 backdrop-blur-xl;
+    border: 1px solid hsl(0 0% 100% / 0.1);
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom selection color */
+::selection {
+  background: hsl(28 78% 48% / 0.2);
+  color: hsl(20 15% 15%);
+}

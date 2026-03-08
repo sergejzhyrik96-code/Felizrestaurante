@@ -1,0 +1,65 @@
+{
+  "tapas": [
+    { "name": "Tar-tar de vacuno", "name_ru": "Тартар из говядины", "description": "Tartar de ternera de primera con alcaparras y yema.", "description_ru": "Тартар из отборной говядины с каперсами и желтком.", "price": "18,9 €", "image": "tartar vacuno.png" },
+    { "name": "Flor de alcachofa con foie y yema de huevo", "name_ru": "Цветок артишока с фуа-гра и яичным желтком", "description": "", "description_ru": "", "price": "11,5 €", "image": "flor alcachofa.png" },
+    { "name": "Tablas de pan", "name_ru": "Хлебная доска", "description": "", "description_ru": "", "price": "3,5 €", "image": "tabla pan.png" },
+    { "name": "Tabla de Jamón Ibérico (100g)", "name_ru": "Тарелка хамона иберико (100 г)", "description": "", "description_ru": "", "price": "21 €", "image": "jamon iberico.png" },
+    { "name": "Calamares a la Romana", "name_ru": "Кальмары в кляре", "description": "", "description_ru": "", "price": "13,8 €", "image": "calamares romana.png" },
+    { "name": "Ensaladilla rusa con gambas", "name_ru": "Оливье с креветками", "description": "", "description_ru": "", "price": "8,5 €", "image": "ensaladilla rusa.png" },
+    { "name": "Patatas rústicas a la brava", "name_ru": "Картофель по-брабантски", "description": "", "description_ru": "", "price": "8 €", "image": "patatas bravas.png" },
+    { "name": "Gambas rojas", "name_ru": "Красные креветки", "description": "", "description_ru": "", "price": "18,5 €", "image": "gambas rojas.png" },
+    { "name": "Zamburiñas (8 uds)", "name_ru": "Сантилья (8 шт.)", "description": "", "description_ru": "", "price": "22 €", "image": "zamburinas.png" },
+    { "name": "Tellinas", "name_ru": "Тельинас", "description": "", "description_ru": "", "price": "13,6 €", "image": "tellinas.png" },
+    { "name": "Queso frito con frutos secos y salsa de frutos del bosque", "name_ru": "Жареный сыр с орехами и ягодным соусом", "description": "", "description_ru": "", "price": "9,5 €", "image": "queso frito.png" },
+    { "name": "Tabla de quesos con miel, mermelada y frutos secos", "name_ru": "Сырная тарелка с мёдом, джемом и орехами", "description": "", "description_ru": "", "price": "16 €", "image": "tabla quesos.png" },
+    { "name": "Pulpo con puré de patata y trufa negra, salsa verde", "name_ru": "Осьминог с картофельным пюре, чёрным трюфелем и зелёным соусом", "description": "", "description_ru": "", "price": "23 €", "image": "pulpo trufa.png" },
+    { "name": "Tartar de atún, aguacate, alga y salsa", "name_ru": "Тартар из тунца с авокадо, водорослями и соусом", "description": "", "description_ru": "", "price": "14,3 €", "image": "tartar atun.png" },
+    { "name": "Tar-tar de tomate premium, fresa, aguacate, cebolla y salsa agridulce", "name_ru": "Тартар из премиум-томатов с клубникой, авокадо, луком и кисло-сладким соусом", "description": "", "description_ru": "", "price": "8,6 €", "image": "tartar tomate.png" },
+    { "name": "Tataki de atún rojo con salsa de soja", "name_ru": "Татаки из красного тунца с соевым соусом", "description": "", "description_ru": "", "price": "19,40 €", "image": "tataki atun.png" }
+  ],
+  "ensaladas": [
+    { "name": "Griega", "name_ru": "Греческий салат", "description": "", "description_ru": "", "price": "12,90 €", "image": "ensalada griega.png" },
+    { "name": "Ensalada Caprese", "name_ru": "Салат Капрезе", "description": "", "description_ru": "", "price": "9,20 €", "image": "ensalada caprese.png" },
+    { "name": "Tomate Premium", "name_ru": "Премиум-томат", "description": "", "description_ru": "", "price": "14,60 €", "image": "tomate premium.png" },
+    { "name": "Ensalada Picasso", "name_ru": "Салат Пикассо", "description": "", "description_ru": "", "price": "13,80 €", "image": "ensalada picasso.png" },
+    { "name": "Ensalada Vivaldi", "name_ru": "Салат Вивальди", "description": "", "description_ru": "", "price": "13,5 €", "image": "ensalada vivaldi.png" },
+    { "name": "Brocolini con salsa de queso", "name_ru": "Броколини с сырным соусом", "description": "", "description_ru": "", "price": "11,5 €", "image": "brocolini queso.png" },
+    { "name": "Ensalada César", "name_ru": "Салат Цезарь", "description": "", "description_ru": "", "price": "12,5 €", "image": "ensalada cesar.png" }
+  ],
+  "arroces": [
+    { "name": "Valenciana al estilo feliz", "name_ru": "Паэлья по-валенсийски в стиле FELIZ", "description": "", "description_ru": "", "price": "16,9 €", "image": "arroz valenciana.png" },
+    { "name": "Marisco", "name_ru": "Паэлья с морепродуктами", "description": "", "description_ru": "", "price": "18,9 €", "image": "arroz marisco.png" },
+    { "name": "Arroz negro", "name_ru": "Чёрный рис", "description": "", "description_ru": "", "price": "18,9 €", "image": "arroz negro.png" },
+    { "name": "Verdura", "name_ru": "Рис с овощами", "description": "", "description_ru": "", "price": "16 €", "image": "arroz verdura.png" },
+    { "name": "Fideuá a la marinera", "name_ru": "Фидеуа с морепродуктами", "description": "", "description_ru": "", "price": "18,6 €", "image": "fideua marinera.png" },
+    { "name": "Arroz meloso con bogavante", "name_ru": "Кремовый рис с омаром", "description": "", "description_ru": "", "price": "22,5 €", "image": "arroz bogovante.png" },
+    { "name": "Arroz con chuletón y bacon", "name_ru": "Рис с стейком и беконом", "description": "", "description_ru": "", "price": "25,7 €", "image": "arroz chuleton.png" },
+    { "name": "Fideuá de pulpo con alcachofa", "name_ru": "Фидеуа с осьминогом и артишоками", "description": "", "description_ru": "", "price": "25,7 €", "image": "fideua pulpo.png" },
+    { "name": "Arroz con magret de pato y setas", "name_ru": "Рис с утиной грудкой и грибами", "description": "", "description_ru": "", "price": "25,7 €", "image": "arroz pato setas.png" }
+  ],
+  "carnes": [
+    { "name": "Presa ibérica con guarnición y salsa Pedro Ximenez", "name_ru": "Иберийская преса с гарниром и соусом Pedro Ximénez", "description": "", "description_ru": "", "price": "18,20 €", "image": "presa iberica.png" },
+    { "name": "Magret de pato con salsa de arándanos y pera frita", "name_ru": "Утиная грудка с черничным соусом и жареной грушей", "description": "", "description_ru": "", "price": "21,9 €", "image": "magret pato.png" },
+    { "name": "Guiso de rabo de toro a la cordobesa con pimientos de padrón", "name_ru": "Тушёный бычий хвост по-кордовски с перцами падрон", "description": "", "description_ru": "", "price": "23,20 €", "image": "rabo toro.png" },
+    { "name": "Carrillada de ternera guisada en cama de puré de patatas", "name_ru": "Тушёные щёчки телятины на картофельном пюре", "description": "", "description_ru": "", "price": "24,30 €", "image": "carrillada.png" },
+    { "name": "Chuletón madurado 40 días a la parrilla sobre la piedra caliente", "name_ru": "Стейк 40 дней выдержки на гриле на горячем камне", "description": "", "description_ru": "", "price": "26,70 €", "image": "chuletón a la piedra.png" },
+    { "name": "Solomillo de ternera con salsa Pedro Ximenez", "name_ru": "Телячья вырезка с соусом Pedro Ximénez", "description": "", "description_ru": "", "price": "22 €", "image": "solomillo.png" },
+    { "name": "Chuletas de cordero con mantequilla", "name_ru": "Бараньи отбивные с маслом", "description": "", "description_ru": "", "price": "19,30 €", "image": "chuletas cordero.png" }
+  ],
+  "pescados": [
+    { "name": "Titaina valenciana con ventresca", "name_ru": "Титайна по-валенсийски с вентреской", "description": "", "description_ru": "", "price": "16,3 €", "image": "titaina valenciana.png" },
+    { "name": "Lubina a la plancha con salsa de queso y brocolini", "name_ru": "Сибас на гриле с сырным соусом и броколини", "description": "", "description_ru": "", "price": "19,8 €", "image": "lubina plancha.png" },
+    { "name": "Dorada horneada a la sal con limón", "name_ru": "Дорадо, запечённая в соли с лимоном", "description": "", "description_ru": "", "price": "22,3 €", "image": "dorada sal.png" },
+    { "name": "Rodaballo con ajo y sal negra", "name_ru": "Палтус с чесноком и чёрной солью", "description": "", "description_ru": "", "price": "22,3 €", "image": "rodaballo.png" },
+    { "name": "Salmón al cava con naranjas", "name_ru": "Лосось с кавой и апельсинами", "description": "", "description_ru": "", "price": "22 €", "image": "salmon cava.png" },
+    { "name": "Zamburiñas", "name_ru": "Сантилья", "description": "", "description_ru": "", "price": "19,8 €", "image": "zamburinas.png" },
+    { "name": "Tataki de atún rojo con salsa de soja", "name_ru": "Татаки из красного тунца с соевым соусом", "description": "", "description_ru": "", "price": "19,40 €", "image": "tataki atun.png" }
+  ],
+  "postres": [
+    { "name": "Tarta de queso", "name_ru": "Чизкейк", "description": "", "description_ru": "", "price": "5,2 €", "image": "tarta queso.png" },
+    { "name": "Tarta de zanahoria", "name_ru": "Морковный торт", "description": "", "description_ru": "", "price": "5,4 €", "image": "tarta zanahoria.png" },
+    { "name": "Tarta de chocolate con cerezas", "name_ru": "Шоколадный торт с вишней", "description": "", "description_ru": "", "price": "5,7 €", "image": "tarta chocolate cerezas.png" },
+    { "name": "Tarta Red Velvet", "name_ru": "Торт ред вельвет", "description": "", "description_ru": "", "price": "5,9 €", "image": "tarta red velvet.png" }
+  ],
+  "bebidas": []
+}

@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "gastroBoxes": "Gastro Boxes",
+    "catering": "Catering",
+    "gallery": "Galería",
+    "reservations": "Reservar mesa",
+    "cart": "Carrito"
+  },
+  "menu": {
+    "title": "Nuestro Menú",
+    "titleMain": "Nuestro",
+    "titleHighlight": "Menú",
+    "subtitle": "Carta",
+    "loading": "Cargando menú…",
+    "error": "Error al cargar el menú.",
+    "emptyCategory": "No hay platos en esta categoría.",
+    "categories": {
+      "tapas": "Tapas",
+      "ensaladas": "Ensaladas",
+      "arroces": "Arroces",
+      "carnes": "Carnes",
+      "pescados": "Pescados",
+      "postres": "Postres",
+      "bebidas": "Bebidas",
+      "complementos": "Complementos",
+      "menu_infantil": "Menú infantil"
+    }
+  },
+  "gastroBoxes": {
+    "title": "Gastro Boxes",
+    "subtitle": "Delivery",
+    "description": "Experiencias gourmet curadas entregadas en tu puerta. Perfectas para compartir.",
+    "orderButton": "Pedir",
+    "serves": "personas"
+  },
+  "gallery": {
+    "title": "Galería",
+    "subtitle": "Un viaje visual"
+  },
+  "reservation": {
+    "title": "Reservar mesa",
+    "subtitle": "Tu experiencia te espera",
+    "subtitleMain": "Tu experiencia",
+    "subtitleHighlight": "te espera",
+    "selectDate": "Seleccionar fecha",
+    "selectTime": "Seleccionar hora",
+    "guests": "Comensales",
+    "yourDetails": "Tus datos",
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "email": "Email",
+    "specialRequests": "Peticiones especiales",
+    "summary": "Resumen de la reserva",
+    "confirm": "Confirmar reserva",
+    "thankYou": "¡Gracias!",
+    "thankYouMessage": "Tu reserva ha sido recibida. Te enviaremos una confirmación en breve.",
+    "makeAnother": "Hacer otra reserva",
+    "namePlaceholder": "Tu nombre",
+    "phonePlaceholder": "+34 600 000 000",
+    "emailPlaceholder": "tu@email.com",
+    "commentsPlaceholder": "Alergias, preferencias de mesa, celebraciones…"
+  },
+  "footer": {
+    "tagline": "Experiencia gastronómica en Valencia",
+    "navigate": "Navegar",
+    "hours": "Horario",
+    "contact": "Contacto",
+    "hoursWeek": "Lun – Vie: 12:00 – 23:00",
+    "hoursWeekend": "Sáb – Dom: 11:00 – 00:00",
+    "address": "Plaza Vannes, 7 (bajo izq.), Valencia, España",
+    "rights": "Todos los derechos reservados."
+  },
+  "home": {
+    "services": "Servicios",
+    "beyondRestaurant": "Más allá del restaurante",
+    "catering": "Catering",
+    "cateringDesc": "Catering premium para eventos, bodas y reuniones corporativas.",
+    "gastroBoxes": "Gastro Boxes",
+    "gastroBoxesDesc": "Cajas gourmet curadas entregadas en tu puerta.",
+    "reservations": "Reservas",
+    "reservationsDesc": "Reserva tu mesa con una experiencia gastronómica premium.",
+    "explore": "Explorar",
+    "ctaTitle": "¿Listo para una velada inolvidable?",
+    "ctaSubtitle": "Reserva tu mesa y déjanos crear una experiencia especial para ti.",
+    "reserveNow": "Reservar ahora"
+  },
+  "hero": {
+    "badge": "Experiencia Gastro · Valencia",
+    "headline": "Donde cada sabor cuenta una historia",
+    "headlinePart1": "Donde cada",
+    "headlineHighlight": "sabor",
+    "headlinePart2": "cuenta una historia",
+    "subheadline": "Una experiencia gastronómica moderna que combina los sabores mediterráneos y la cocina creativa en el corazón de Valencia.",
+    "reserveTable": "Reservar mesa",
+    "viewMenu": "Ver menú",
+    "orderOnline": "Pedir online"
+  },
+  "common": {
+    "addToCart": "Añadir al carrito",
+    "browseMenu": "Ver menú"
+  },
+  "cart": {
+    "title": "Tu carrito",
+    "empty": "Tu carrito está vacío",
+    "emptyHint": "Añade platos del menú o gastro boxes.",
+    "placeOrder": "Realizar pedido",
+    "total": "Total",
+    "orderSuccess": "¡Pedido realizado! 🎉"
+  }
+}

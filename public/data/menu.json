@@ -1,0 +1,844 @@
+{
+  "tostadas": [
+    {
+      "name_es": "Con aceite de oliva",
+      "name_ru": "Con aceite de oliva",
+      "description_es": "",
+      "description_ru": "",
+      "price": "2 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tomate, queso manchego",
+      "name_ru": "Tomate, queso manchego",
+      "description_es": "",
+      "description_ru": "",
+      "price": "3,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Salmon, aguacate y queso crema",
+      "name_ru": "Salmon, aguacate y queso crema",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tomates, aguacate",
+      "name_ru": "Tomates, aguacate",
+      "description_es": "",
+      "description_ru": "",
+      "price": "3,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Pechuga, queso manchego, tomate, lechuga, salsa",
+      "name_ru": "Pechuga, queso manchego, tomate, lechuga, salsa",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tomate y jamón",
+      "name_ru": "Tomate y jamón",
+      "description_es": "",
+      "description_ru": "",
+      "price": "3,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Anchoas, tomate, aguacate, queso feta",
+      "name_ru": "Anchoas, tomate, aguacate, queso feta",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Nutella con fresas",
+      "name_ru": "Nutella con fresas",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tomate",
+      "name_ru": "Tomate",
+      "description_es": "",
+      "description_ru": "",
+      "price": "2,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tomate, jamón, queso manchego",
+      "name_ru": "Tomate, jamón, queso manchego",
+      "description_es": "",
+      "description_ru": "",
+      "price": "4 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Atún, tomate rallado, allioli",
+      "name_ru": "Atún, tomate rallado, allioli",
+      "description_es": "",
+      "description_ru": "",
+      "price": "5,35 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Presa ibérica guisada, tomate, lechuga, salsa",
+      "name_ru": "Presa ibérica guisada, tomate, lechuga, salsa",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Mantequilla y mermelada",
+      "name_ru": "Mantequilla y mermelada",
+      "description_es": "",
+      "description_ru": "",
+      "price": "2,9 €",
+      "image": "/placeholder.svg"
+    }
+  ],
+  "croissants": [
+    {
+      "name_es": "Huevo benedict, salmón, salsa de queso",
+      "name_ru": "Huevo benedict, salmón, salsa de queso",
+      "description_es": "",
+      "description_ru": "",
+      "price": "9,2 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "A la plancha",
+      "name_ru": "A la plancha",
+      "description_es": "",
+      "description_ru": "",
+      "price": "2,3 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Chocolate o mantequilla y mermelada",
+      "name_ru": "Chocolate o mantequilla y mermelada",
+      "description_es": "",
+      "description_ru": "",
+      "price": "3 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Jamón york y queso",
+      "name_ru": "Jamón york y queso",
+      "description_es": "",
+      "description_ru": "",
+      "price": "3,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Huevo benedict, bacon y salsa de queso",
+      "name_ru": "Huevo benedict, bacon y salsa de queso",
+      "description_es": "",
+      "description_ru": "",
+      "price": "7,8 €",
+      "image": "/placeholder.svg"
+    }
+  ],
+  "sandwiches": [
+    {
+      "name_es": "Salmón",
+      "name_ru": "Salmón",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,8 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Jamón york y queso",
+      "name_ru": "Jamón york y queso",
+      "description_es": "",
+      "description_ru": "",
+      "price": "3,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Jamón york, queso y huevo",
+      "name_ru": "Jamón york, queso y huevo",
+      "description_es": "",
+      "description_ru": "",
+      "price": "4,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Montaña",
+      "name_ru": "Montaña",
+      "description_es": "",
+      "description_ru": "",
+      "price": "11 €",
+      "image": "/placeholder.svg"
+    }
+  ],
+  "combos": [
+    {
+      "name_es": "Huevos revueltos, salmón, aguacate, pan tostado, tomate rallado, ensalada de espinacas con tomate y fresa",
+      "name_ru": "Huevos revueltos, salmón, aguacate, pan tostado, tomate rallado, ensalada de espinacas con tomate y fresa",
+      "description_es": "",
+      "description_ru": "",
+      "price": "13,9 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Huevos revueltos, bacón, pan tostado, tomate rallado, ensalada de espinacas con tomate y fresa",
+      "name_ru": "Huevos revueltos, bacón, pan tostado, tomate rallado, ensalada de espinacas con tomate y fresa",
+      "description_es": "",
+      "description_ru": "",
+      "price": "9,6 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Huevos revueltos, jamón, queso manchego, pan tostado, tomate rallado, ensalada de espinacas con tomate y fresa",
+      "name_ru": "Huevos revueltos, jamón, queso manchego, pan tostado, tomate rallado, ensalada de espinacas con tomate y fresa",
+      "description_es": "",
+      "description_ru": "",
+      "price": "13,8 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Huevos revueltos, salchichas, pan tostado, tomate rallado, ensalada de espinaca con tomate y fresa",
+      "name_ru": "Huevos revueltos, salchichas, pan tostado, tomate rallado, ensalada de espinaca con tomate y fresa",
+      "description_es": "",
+      "description_ru": "",
+      "price": "11,85 €",
+      "image": "/placeholder.svg"
+    }
+  ],
+  "almuerzos": [
+    {
+      "name_es": "Pechuga de pollo, queso manchego, tomate, lechuga, salsa casera",
+      "name_ru": "Pechuga de pollo, queso manchego, tomate, lechuga, salsa casera",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,8 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Anchoas, tomate, aguacate, queso feta",
+      "name_ru": "Anchoas, tomate, aguacate, queso feta",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,8 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Presa ibérica, tomate, lechuga, salsa casera",
+      "name_ru": "Presa ibérica, tomate, lechuga, salsa casera",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,8 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Atún, tomate, allioli",
+      "name_ru": "Atún, tomate, allioli",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,8 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Chistorra, puré de patatas, tomate",
+      "name_ru": "Chistorra, puré de patatas, tomate",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Jamón con tomate",
+      "name_ru": "Jamón con tomate",
+      "description_es": "",
+      "description_ru": "",
+      "price": "5,00 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Atún, alioli y aceitunas negras",
+      "name_ru": "Atún, alioli y aceitunas negras",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,50 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Chivito",
+      "name_ru": "Chivito",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,50 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Anchoas, mozzarella y tomate",
+      "name_ru": "Anchoas, mozzarella y tomate",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,50 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Mortadela, rúcula, queso y tomate",
+      "name_ru": "Mortadela, rúcula, queso y tomate",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,50 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Vegano",
+      "name_ru": "Vegano",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,50 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Calamares fritos con mayonesa",
+      "name_ru": "Calamares fritos con mayonesa",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,50 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Pollo crujiente con tomate, lechuga, salsa casera y queso manchego",
+      "name_ru": "Pollo crujiente con tomate, lechuga, salsa casera y queso manchego",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,50 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Carne picada con parmesano, mayonesa y pepinillos agridulces",
+      "name_ru": "Carne picada con parmesano, mayonesa y pepinillos agridulces",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6,50 €",
+      "image": "/placeholder.svg"
+    }
+  ],
+  "tapas": [
+    {
+      "name_es": "Tar-tar de vacuno",
+      "name_ru": "Тартар из говядины",
+      "description_es": "",
+      "description_ru": "",
+      "price": "18,9 €",
+      "image": "tartar vacuno.png"
+    },
+    {
+      "name_es": "Flor de alcachofa con foie y yema de huevo",
+      "name_ru": "Цветок артишока с фуа-гра и желтком",
+      "description_es": "",
+      "description_ru": "",
+      "price": "11,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tablas de pan",
+      "name_ru": "Хлебная доска",
+      "description_es": "",
+      "description_ru": "",
+      "price": "3,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tabla de Jamón Ibérico (100g)",
+      "name_ru": "Тарелка хамона иберико (100 г)",
+      "description_es": "",
+      "description_ru": "",
+      "price": "21 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Calamares a la Romana",
+      "name_ru": "Кальмары в кляре",
+      "description_es": "",
+      "description_ru": "",
+      "price": "13,8 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Ensaladilla rusa con gambas",
+      "name_ru": "Оливье с креветками",
+      "description_es": "",
+      "description_ru": "",
+      "price": "8,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Patatas rústicas a la brava",
+      "name_ru": "Картофель по-брабантски",
+      "description_es": "",
+      "description_ru": "",
+      "price": "8 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Gambas rojas",
+      "name_ru": "Красные креветки",
+      "description_es": "",
+      "description_ru": "",
+      "price": "18,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Zamburiñas (8 uds)",
+      "name_ru": "Сантилья (8 шт.)",
+      "description_es": "",
+      "description_ru": "",
+      "price": "22 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tellinas",
+      "name_ru": "Тельинас",
+      "description_es": "",
+      "description_ru": "",
+      "price": "13,6 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Queso frito con frutos secos y salsa de frutos del bosque",
+      "name_ru": "Жареный сыр с орехами и ягодным соусом",
+      "description_es": "",
+      "description_ru": "",
+      "price": "9,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tabla de quesos con miel, mermelada y frutos secos",
+      "name_ru": "Сырная тарелка с мёдом и орехами",
+      "description_es": "",
+      "description_ru": "",
+      "price": "16 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Pulpo con puré de patata y trufa negra, salsa verde",
+      "name_ru": "Осьминог с пюре, трюфелем и зелёным соусом",
+      "description_es": "",
+      "description_ru": "",
+      "price": "23 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tartar de atún, aguacate, alga y salsa",
+      "name_ru": "Тартар из тунца с авокадо и водорослями",
+      "description_es": "",
+      "description_ru": "",
+      "price": "14,3 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tar-tar de tomate premium, fresa, aguacate, cebolla y salsa agridulce",
+      "name_ru": "Тартар из томата с клубникой и авокадо",
+      "description_es": "",
+      "description_ru": "",
+      "price": "8,6 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tataki de atún rojo con salsa de soja",
+      "name_ru": "Татаки из тунца с соевым соусом",
+      "description_es": "",
+      "description_ru": "",
+      "price": "19,40 €",
+      "image": "/placeholder.svg"
+    }
+  ],
+  "ensaladas": [
+    {
+      "name_es": "Griega",
+      "name_ru": "Греческий салат",
+      "description_es": "",
+      "description_ru": "",
+      "price": "12,90 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Ensalada Caprese",
+      "name_ru": "Салат Капрезе",
+      "description_es": "",
+      "description_ru": "",
+      "price": "9,20 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tomate Premium",
+      "name_ru": "Премиум-томат",
+      "description_es": "",
+      "description_ru": "",
+      "price": "14,60 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Ensalada Picasso",
+      "name_ru": "Салат Пикассо",
+      "description_es": "",
+      "description_ru": "",
+      "price": "13,80 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Ensalada Vivaldi",
+      "name_ru": "Салат Вивальди",
+      "description_es": "",
+      "description_ru": "",
+      "price": "13,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Brocolini con salsa de queso",
+      "name_ru": "Броколини с сырным соусом",
+      "description_es": "",
+      "description_ru": "",
+      "price": "11,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Ensalada César",
+      "name_ru": "Салат Цезарь",
+      "description_es": "",
+      "description_ru": "",
+      "price": "12,5 €",
+      "image": "/placeholder.svg"
+    }
+  ],
+  "pescados": [
+    {
+      "name_es": "Titaina valenciana con ventresca",
+      "name_ru": "Титайна по-валенсийски с вентреской",
+      "description_es": "",
+      "description_ru": "",
+      "price": "16,3 €",
+      "image": "titaina valenciana.png"
+    },
+    {
+      "name_es": "Lubina a la plancha con salsa de queso y brocolini",
+      "name_ru": "Сибас на гриле с сырным соусом",
+      "description_es": "",
+      "description_ru": "",
+      "price": "19,8 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Dorada horneada a la sal con limón",
+      "name_ru": "Дорадо в соли с лимоном",
+      "description_es": "",
+      "description_ru": "",
+      "price": "22,3 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Rodaballo con ajo y sal negra",
+      "name_ru": "Палтус с чесноком и чёрной солью",
+      "description_es": "",
+      "description_ru": "",
+      "price": "22,3 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Salmón al cava con naranjas",
+      "name_ru": "Лосось с кавой и апельсинами",
+      "description_es": "",
+      "description_ru": "",
+      "price": "22 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Zamburiñas",
+      "name_ru": "Сантилья",
+      "description_es": "",
+      "description_ru": "",
+      "price": "19,8 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tataki de atún rojo con salsa de soja",
+      "name_ru": "Татаки из тунца с соевым соусом",
+      "description_es": "",
+      "description_ru": "",
+      "price": "19,40 €",
+      "image": "/placeholder.svg"
+    }
+  ],
+  "carnes": [
+    {
+      "name_es": "Presa ibérica con guarnición y salsa Pedro Ximenez",
+      "name_ru": "Иберийская преса с соусом Pedro Ximénez",
+      "description_es": "",
+      "description_ru": "",
+      "price": "18,20 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Magret de pato con salsa de arándanos y pera frita",
+      "name_ru": "Утиная грудка с черничным соусом",
+      "description_es": "",
+      "description_ru": "",
+      "price": "21,9 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Guiso de rabo de toro a la cordobesa con pimientos de padrón",
+      "name_ru": "Рабо де торо по-кордовски",
+      "description_es": "",
+      "description_ru": "",
+      "price": "23,20 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Carrillada de ternera guisada en cama de puré de patatas",
+      "name_ru": "Щёчки телятины на пюре",
+      "description_es": "",
+      "description_ru": "",
+      "price": "24,30 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Chuletón madurado 40 días a la parrilla sobre la piedra caliente",
+      "name_ru": "Стейк на камне 40 дней выдержки",
+      "description_es": "",
+      "description_ru": "",
+      "price": "26,70 €",
+      "image": "chuletón a la piedra.png"
+    },
+    {
+      "name_es": "Solomillo de ternera con salsa Pedro Ximenez",
+      "name_ru": "Вырезка с соусом Pedro Ximénez",
+      "description_es": "",
+      "description_ru": "",
+      "price": "22 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Chuletas de cordero con mantequilla",
+      "name_ru": "Бараньи отбивные с маслом",
+      "description_es": "",
+      "description_ru": "",
+      "price": "19,30 €",
+      "image": "/placeholder.svg"
+    }
+  ],
+  "complementos": [
+    {
+      "name_es": "Tabla de pan (aceite y tomate)",
+      "name_ru": "Хлеб с маслом и томатом",
+      "description_es": "",
+      "description_ru": "",
+      "price": "3,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Verdura a la plancha con salsa verde",
+      "name_ru": "Овощи на гриле с зелёным соусом",
+      "description_es": "",
+      "description_ru": "",
+      "price": "9,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Puré de patata",
+      "name_ru": "Картофельное пюре",
+      "description_es": "",
+      "description_ru": "",
+      "price": "4,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Patatas fritas",
+      "name_ru": "Картофель фри",
+      "description_es": "",
+      "description_ru": "",
+      "price": "4 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tabla de pan (aceitunas)",
+      "name_ru": "Хлеб с оливками",
+      "description_es": "",
+      "description_ru": "",
+      "price": "3,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Arroz blanco",
+      "name_ru": "Рис отварной",
+      "description_es": "",
+      "description_ru": "",
+      "price": "4,5 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Wakame",
+      "name_ru": "Вакаме",
+      "description_es": "",
+      "description_ru": "",
+      "price": "6 €",
+      "image": "/placeholder.svg"
+    }
+  ],
+  "arroces": [
+    {
+      "name_es": "Valenciana al estilo feliz",
+      "name_ru": "Паэлья по-валенсийски FELIZ",
+      "description_es": "",
+      "description_ru": "",
+      "price": "16,9 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Marisco",
+      "name_ru": "Паэлья с морепродуктами",
+      "description_es": "",
+      "description_ru": "",
+      "price": "18,9 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Arroz negro",
+      "name_ru": "Чёрный рис",
+      "description_es": "",
+      "description_ru": "",
+      "price": "18,9 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Verdura",
+      "name_ru": "Рис с овощами",
+      "description_es": "",
+      "description_ru": "",
+      "price": "16 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Fideuá a la marinera",
+      "name_ru": "Фидеуа с морепродуктами",
+      "description_es": "",
+      "description_ru": "",
+      "price": "18,6 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Arroz meloso con bogavante",
+      "name_ru": "Кремовый рис с омаром",
+      "description_es": "",
+      "description_ru": "",
+      "price": "22,5 €",
+      "image": "arroz bogovante.png"
+    },
+    {
+      "name_es": "Arroz con chuletón y bacon",
+      "name_ru": "Рис со стейком и беконом",
+      "description_es": "",
+      "description_ru": "",
+      "price": "25,7 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Fideuá de pulpo con alcachofa",
+      "name_ru": "Фидеуа с осьминогом и артишоками",
+      "description_es": "",
+      "description_ru": "",
+      "price": "25,7 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Arroz con magret de pato y setas",
+      "name_ru": "Рис с утиной грудкой и грибами",
+      "description_es": "",
+      "description_ru": "",
+      "price": "25,7 €",
+      "image": "/placeholder.svg"
+    }
+  ],
+  "menu_infantil": [
+    {
+      "name_es": "Nuggets de pollo con patatas y ensalada",
+      "name_ru": "Наггетсы с картофелем и салатом",
+      "description_es": "",
+      "description_ru": "",
+      "price": "12 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Arroz con tomate y huevo frito",
+      "name_ru": "Рис с томатом и яичницей",
+      "description_es": "",
+      "description_ru": "",
+      "price": "12 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Espaguetis con salsa boloñesa",
+      "name_ru": "Спагетти болоньезе",
+      "description_es": "",
+      "description_ru": "",
+      "price": "12 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Salchicha con puré de patatas y tomate cherry",
+      "name_ru": "Сосиска с пюре и черри",
+      "description_es": "",
+      "description_ru": "",
+      "price": "12 €",
+      "image": "/placeholder.svg"
+    }
+  ],
+  "postres": [
+    {
+      "name_es": "Tarta de queso",
+      "name_ru": "Чизкейк",
+      "description_es": "",
+      "description_ru": "",
+      "price": "5,2 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tarta de zanahoria",
+      "name_ru": "Морковный торт",
+      "description_es": "",
+      "description_ru": "",
+      "price": "5,4 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tarta de chocolate con cerezas",
+      "name_ru": "Шоколадный торт с вишней",
+      "description_es": "",
+      "description_ru": "",
+      "price": "5,7 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Tarta Red Velvet",
+      "name_ru": "Торт ред вельвет",
+      "description_es": "",
+      "description_ru": "",
+      "price": "5,9 €",
+      "image": "/placeholder.svg"
+    },
+    {
+      "name_es": "Leyenda de alérgenos",
+      "name_ru": "Leyenda de alérgenos",
+      "description_es": "",
+      "description_ru": "",
+      "price": "—",
+      "image": "/placeholder.svg"
+    }
+  ]
+}
