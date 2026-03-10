@@ -18,6 +18,8 @@ import CateringAdultosPage from "@/pages/CateringAdultosPage";
 import GalleryPage from "@/pages/GalleryPage";
 import ReservationsPage from "@/pages/ReservationsPage";
 import CartPage from "@/pages/CartPage";
+import CancelPage from "@/pages/CancelPage";
+import AdminPage from "@/pages/AdminPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -54,6 +56,8 @@ const App = () => (
               <Route path="/gallery" element={<GalleryPage />} />
               <Route path="/reservations" element={<ReservationsPage />} />
               <Route path="/cart" element={<CartPage />} />
+              <Route path="/cancel" element={<CancelPage />} />
+              <Route path="/admin" element={<AdminPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>

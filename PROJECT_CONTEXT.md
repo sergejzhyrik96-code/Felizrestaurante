@@ -55,6 +55,7 @@ This file provides context for AI-assisted development. It describes the current
 - **App**: `src/App.tsx` (routing, layout), `src/main.tsx` (mount).
 - **Data**: `public/data/menu.json`, `public/data/gastroboxes.json`; generated/updated by `scripts/migrate-restaurant-data.cjs`.
 - **Supabase**: `src/integrations/supabase/client.ts`, `src/integrations/supabase/types.ts`.
+- **Reservations**: `src/components/ReservationForm.tsx`, `src/pages/ReservationsPage.tsx`, `src/pages/CancelPage.tsx`, `src/pages/AdminPage.tsx`. API: `api/reservations/create.ts`, `api/reservations/cancel.ts`, `api/admin/login.ts`, `api/admin/reservations/index.ts`, `api/admin/reservations/[id].ts`. DB: table `reservations` (migration in `supabase/migrations/`). Env: see `.env.example` (Supabase service role, Telegram, Resend, ADMIN_PASSWORD).
 
 ## AI Infrastructure Files (Do Not Modify App Logic)
 
