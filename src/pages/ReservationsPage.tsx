@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { format } from "date-fns";
 import { motion } from "framer-motion";
 import { CalendarDays, Clock, Users, Check } from "lucide-react";
 import { toast } from "sonner";
@@ -6,6 +7,12 @@ import { Calendar } from "@/components/ui/calendar";
 import { cn } from "@/lib/utils";
 import { useLanguage } from "@/contexts/LanguageContext";
 import Footer from "@/components/Footer";
+import {
+  buildReservationWhatsAppMessage,
+  buildReservationEmailBody,
+  getWhatsAppUrl,
+  getMailtoUrl,
+} from "@/lib/notifications";
 
 const timeSlots = [
   "12:00", "12:30", "13:00", "13:30", "14:00", "14:30",
@@ -27,9 +34,25 @@ const ReservationsPage = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!canSubmit) return;
+    if (!canSubmit || !date) return;
     setSubmitted(true);
     toast.success(locale === "ru" ? "Бронь подтверждена! 🎉" : "¡Reserva confirmada! 🎉");
+
+    const dateFormatted = format(date, locale === "ru" ? "dd.MM.yyyy" : "dd/MM/yyyy");
+    const payload = {
+      name: name.trim(),
+      phone: phone.trim(),
+      email: email.trim(),
+      date: dateFormatted,
+      time,
+      guests,
+      comments: comments.trim(),
+    };
+    const whatsappText = buildReservationWhatsAppMessage(payload);
+    window.open(getWhatsAppUrl(whatsappText), "_blank", "noopener,noreferrer");
+    const emailSubject = "Solicitud de reserva – Feliz Valencia";
+    const emailBody = buildReservationEmailBody(payload);
+    window.open(getMailtoUrl(emailSubject, emailBody), "_blank", "noopener,noreferrer");
   };
 
   if (submitted) {

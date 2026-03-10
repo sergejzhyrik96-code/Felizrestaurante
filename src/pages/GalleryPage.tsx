@@ -4,28 +4,28 @@ import { X } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import Footer from "@/components/Footer";
 
-const GALLERY_IMAGE_BASE = "/gallery/gastoboxes/";
+const GALLERY_IMAGE_BASE = "/gallery/";
 
 const GalleryPage = () => {
-  const { t, locale } = useLanguage();
+  const { t } = useLanguage();
   const [images, setImages] = useState<{ src: string; alt: string }[]>([]);
   const [selected, setSelected] = useState<number | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/data/gastroboxes.json")
+    fetch("/data/gallery.json")
       .then((res) => res.json())
-      .then((data: { image: string; name_es: string; name_ru: string }[]) => {
+      .then((data: string[]) => {
         setImages(
-          data.map((item) => ({
-            src: `${GALLERY_IMAGE_BASE}${encodeURIComponent(item.image)}`,
-            alt: locale === "ru" ? item.name_ru : item.name_es,
+          data.map((file) => ({
+            src: `${GALLERY_IMAGE_BASE}${encodeURIComponent(file)}`,
+            alt: `Galería Feliz – ${file.replace(".jpg", "")}`,
           }))
         );
       })
       .catch(() => setImages([]))
       .finally(() => setLoading(false));
-  }, [locale]);
+  }, []);
 
   if (loading) {
     return (
@@ -50,7 +50,7 @@ const GalleryPage = () => {
             </h1>
           </motion.div>
           <p className="mt-8 text-center text-muted-foreground">
-            {locale === "ru" ? "В галерее пока нет изображений." : "No hay imágenes en la galería."}
+            {t("gallery.empty")}
           </p>
         </div>
         <Footer />

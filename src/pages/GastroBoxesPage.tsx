@@ -5,6 +5,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { useCart } from "@/hooks/useCart";
 import { toast } from "sonner";
 import Footer from "@/components/Footer";
+import GastroCart from "@/components/GastroCart";
 
 interface GastroBoxItem {
   id: string;
@@ -35,7 +36,7 @@ const GastroBoxesPage = () => {
   const getName = (box: GastroBoxItem) => (locale === "ru" ? box.name_ru : box.name_es);
   const getDesc = (box: GastroBoxItem) => (locale === "ru" ? box.description_ru : box.description_es);
   const getServes = (box: GastroBoxItem) => (locale === "ru" ? box.serves_ru : box.serves_es);
-  const imageBase = "/gallery/gastoboxes/";
+  const imageBase = "/images/gastroboxes/";
 
   if (loading) {
     return (
@@ -47,7 +48,8 @@ const GastroBoxesPage = () => {
 
   return (
     <div className="min-h-screen bg-background pt-24">
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-7xl px-6 flex flex-col lg:flex-row lg:gap-8">
+        <div className="flex-1 min-w-0">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -61,7 +63,7 @@ const GastroBoxesPage = () => {
           <p className="mx-auto mt-4 max-w-lg text-base text-muted-foreground">{t("gastroBoxes.description")}</p>
         </motion.div>
 
-        <div className="mt-16 grid gap-8 pb-24 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-16 grid gap-8 pb-24 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
           {boxes.map((box, i) => (
             <motion.div
               key={box.id}
@@ -72,14 +74,28 @@ const GastroBoxesPage = () => {
               className="group overflow-hidden rounded-2xl border border-border bg-card shadow-card-hover transition-shadow duration-500 hover:shadow-luxury"
             >
               <div className="relative aspect-[4/3] overflow-hidden bg-muted">
-                <img
-                  src={`${imageBase}${encodeURIComponent(box.image)}`}
-                  alt={getName(box)}
-                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).src = "/placeholder.svg";
-                  }}
-                />
+                {box.image ? (
+                  <>
+                    <img
+                      src={`${imageBase}${encodeURIComponent(box.image)}`}
+                      alt={getName(box)}
+                      className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).style.display = "none";
+                        const wrap = (e.target as HTMLImageElement).parentElement;
+                        const fallback = wrap?.querySelector(".gastro-placeholder");
+                        if (fallback) (fallback as HTMLElement).style.display = "flex";
+                      }}
+                    />
+                    <div className="gastro-placeholder hidden absolute inset-0 h-full w-full items-center justify-center bg-muted text-muted-foreground" style={{ display: "none" }}>
+                      <span className="text-4xl">📦</span>
+                    </div>
+                  </>
+                ) : (
+                  <div className="flex h-full w-full items-center justify-center text-muted-foreground">
+                    <span className="text-4xl">📦</span>
+                  </div>
+                )}
               </div>
               <div className="p-6">
                 <div className="flex items-center gap-2 text-primary">
@@ -109,6 +125,8 @@ const GastroBoxesPage = () => {
             </motion.div>
           ))}
         </div>
+        </div>
+        <GastroCart />
       </div>
       <Footer />
     </div>

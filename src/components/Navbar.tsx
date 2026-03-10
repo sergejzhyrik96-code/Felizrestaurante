@@ -83,12 +83,21 @@ const Navbar = () => {
             ))}
             <div className="flex items-center gap-1 rounded-full border border-border bg-secondary/80 px-1 py-0.5">
               <button
+                type="button"
                 onClick={() => setLocale("es")}
                 className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors ${locale === "es" ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground"}`}
               >
                 ES
               </button>
               <button
+                type="button"
+                onClick={() => setLocale("en")}
+                className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors ${locale === "en" ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground"}`}
+              >
+                EN
+              </button>
+              <button
+                type="button"
                 onClick={() => setLocale("ru")}
                 className={`rounded-full px-2.5 py-1 text-xs font-medium transition-colors ${locale === "ru" ? "bg-foreground text-background" : "text-muted-foreground hover:text-foreground"}`}
               >
@@ -109,12 +118,21 @@ const Navbar = () => {
           <div className="flex items-center gap-4 lg:hidden">
             <div className="flex items-center gap-1 rounded-full border border-border bg-secondary/80 px-1 py-0.5">
               <button
+                type="button"
                 onClick={() => setLocale("es")}
                 className={`rounded-full px-2.5 py-1 text-xs font-medium ${locale === "es" ? "bg-foreground text-background" : "text-muted-foreground"}`}
               >
                 ES
               </button>
               <button
+                type="button"
+                onClick={() => setLocale("en")}
+                className={`rounded-full px-2.5 py-1 text-xs font-medium ${locale === "en" ? "bg-foreground text-background" : "text-muted-foreground"}`}
+              >
+                EN
+              </button>
+              <button
+                type="button"
                 onClick={() => setLocale("ru")}
                 className={`rounded-full px-2.5 py-1 text-xs font-medium ${locale === "ru" ? "bg-foreground text-background" : "text-muted-foreground"}`}
               >

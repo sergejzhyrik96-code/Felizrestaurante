@@ -1,21 +1,36 @@
+import { useEffect } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { CartProvider } from "@/hooks/useCart";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import Navbar from "@/components/Navbar";
+import FloatingReservationButton from "@/components/FloatingReservationButton";
 import HomePage from "@/pages/HomePage";
 import MenuPage from "@/pages/MenuPage";
 import GastroBoxesPage from "@/pages/GastroBoxesPage";
 import CateringPage from "@/pages/CateringPage";
+import CateringGastronomicosPage from "@/pages/CateringGastronomicosPage";
+import CateringInfantilesPage from "@/pages/CateringInfantilesPage";
+import CateringAdultosPage from "@/pages/CateringAdultosPage";
 import GalleryPage from "@/pages/GalleryPage";
 import ReservationsPage from "@/pages/ReservationsPage";
 import CartPage from "@/pages/CartPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    if (pathname === "/") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, [pathname]);
+  return null;
+}
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
@@ -26,11 +41,16 @@ const App = () => (
           <Sonner />
           <BrowserRouter>
             <Navbar />
+            <ScrollToTop />
+            <FloatingReservationButton />
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/menu" element={<MenuPage />} />
               <Route path="/gastro-boxes" element={<GastroBoxesPage />} />
               <Route path="/catering" element={<CateringPage />} />
+              <Route path="/catering/gastronomicos" element={<CateringGastronomicosPage />} />
+              <Route path="/catering/infantiles" element={<CateringInfantilesPage />} />
+              <Route path="/catering/adultos" element={<CateringAdultosPage />} />
               <Route path="/gallery" element={<GalleryPage />} />
               <Route path="/reservations" element={<ReservationsPage />} />
               <Route path="/cart" element={<CartPage />} />

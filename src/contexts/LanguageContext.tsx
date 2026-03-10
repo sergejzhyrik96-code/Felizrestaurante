@@ -2,14 +2,24 @@ import {
   createContext,
   useContext,
   useState,
-  useEffect,
   useCallback,
+  useMemo,
   ReactNode,
 } from "react";
 
-export type Locale = "es" | "ru";
+import es from "@/locales/es.json";
+import ru from "@/locales/ru.json";
+import en from "@/locales/en.json";
+
+export type Locale = "es" | "ru" | "en";
 
 type Translations = Record<string, unknown>;
+
+const bundles: Record<Locale, Translations> = {
+  es: es as Translations,
+  ru: ru as Translations,
+  en: en as Translations,
+};
 
 interface LanguageContextType {
   locale: Locale;
@@ -34,50 +44,38 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   const [locale, setLocaleState] = useState<Locale>(() => {
     try {
       const saved = localStorage.getItem("feliz-locale") as Locale | null;
-      return saved === "ru" || saved === "es" ? saved : "es";
+      return saved === "ru" || saved === "es" || saved === "en" ? saved : "es";
     } catch {
       return "es";
     }
   });
-  const [translations, setTranslations] = useState<Translations>({});
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    let cancelled = false;
-    setLoading(true);
-    fetch(`/locales/${locale}.json`)
-      .then((res) => res.json())
-      .then((data) => {
-        if (!cancelled) setTranslations(data);
-      })
-      .catch(() => {
-        if (!cancelled) setTranslations({});
-      })
-      .finally(() => {
-        if (!cancelled) setLoading(false);
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, [locale]);
 
   const setLocale = useCallback((newLocale: Locale) => {
-    setLocaleState(newLocale);
-    try {
-      localStorage.setItem("feliz-locale", newLocale);
-    } catch {}
+    setLocaleState((prev) => {
+      if (prev === newLocale) return prev;
+      try {
+        localStorage.setItem("feliz-locale", newLocale);
+      } catch {}
+      return newLocale;
+    });
   }, []);
 
   const t = useCallback(
     (key: string): string => {
+      const translations = bundles[locale];
       const value = getNested(translations as Record<string, unknown>, key);
       return value ?? key;
     },
-    [translations]
+    [locale]
+  );
+
+  const value = useMemo(
+    () => ({ locale, setLocale, t, loading: false }),
+    [locale, setLocale, t]
   );
 
   return (
-    <LanguageContext.Provider value={{ locale, setLocale, t, loading }}>
+    <LanguageContext.Provider value={value}>
       {children}
     </LanguageContext.Provider>
   );

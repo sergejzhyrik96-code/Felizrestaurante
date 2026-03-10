@@ -16,16 +16,39 @@
     "loading": "Cargando menú…",
     "error": "Error al cargar el menú.",
     "emptyCategory": "No hay platos en esta categoría.",
+    "allergenLegend": "Leyenda de alérgenos",
+    "allergens": {
+      "1": "Gluten",
+      "2": "Frutos de cascara",
+      "3": "Soja",
+      "4": "Apio",
+      "5": "Cacahuetes",
+      "6": "Pescado",
+      "7": "Moluscos",
+      "8": "Sulfitos",
+      "9": "Mostaza",
+      "10": "Huevo",
+      "11": "Crustáceos",
+      "12": "Lacteos",
+      "13": "Sesamo",
+      "14": "Altramuces"
+    },
     "categories": {
       "tapas": "Tapas",
+      "desayunos": "Desayunos",
+      "combos": "Combos",
+      "almuerzos": "Almuerzos",
+      "entrantes": "Entrantes",
       "ensaladas": "Ensaladas",
-      "arroces": "Arroces",
-      "carnes": "Carnes",
       "pescados": "Pescados",
-      "postres": "Postres",
-      "bebidas": "Bebidas",
+      "carnes": "Carnes",
       "complementos": "Complementos",
-      "menu_infantil": "Menú infantil"
+      "arroces": "Arroces",
+      "menu_infantil": "Menú infantil",
+      "postres": "Postres",
+      "pizzas_feliz": "Pizzas Feliz",
+      "menu_temporada": "Menú de temporada",
+      "bebidas": "Bebidas"
     }
   },
   "gastroBoxes": {
@@ -35,9 +58,35 @@
     "orderButton": "Pedir",
     "serves": "personas"
   },
+  "gastroCart": {
+    "title": "Tu cesta",
+    "empty": "Todavía no has añadido cajas",
+    "totalEstimate": "Total estimado",
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "email": "Email",
+    "dateEvent": "Fecha / evento",
+    "dateEventPlaceholder": "Ej. 15/06, boda",
+    "notes": "Notas",
+    "placeOrder": "Realizar pedido",
+    "paymentSoon": "Pago online (próximamente)",
+    "viewCart": "Ver cesta"
+  },
   "gallery": {
     "title": "Galería",
     "subtitle": "Un viaje visual"
+  },
+  "cateringForm": {
+    "formTitle": "Solicitud de evento / catering",
+    "eventType": "Tipo de evento",
+    "eventTypePlaceholder": "Boda, corporativo, cumpleaños…",
+    "eventDate": "Fecha del evento",
+    "guests": "Número de invitados",
+    "guestsPlaceholder": "Ej. 50",
+    "message": "Mensaje",
+    "messagePlaceholder": "Cuéntanos sobre tu evento…",
+    "submit": "Enviar solicitud",
+    "submitSuccess": "Solicitud enviada. Te redirigimos a WhatsApp para confirmarla."
   },
   "reservation": {
     "title": "Reservar mesa",
@@ -107,6 +156,11 @@
     "emptyHint": "Añade platos del menú o gastro boxes.",
     "placeOrder": "Realizar pedido",
     "total": "Total",
-    "orderSuccess": "¡Pedido realizado! 🎉"
+    "orderSuccess": "¡Pedido realizado! 🎉",
+    "formSectionTitle": "Datos para reservar",
+    "notice": "Los pedidos deben realizarse con al menos 2 días de antelación.",
+    "fullName": "Nombre y apellidos",
+    "eventDate": "Fecha del evento",
+    "notesLabel": "Notas (opcional)",
+    "orderRedirectMessage": "Tu pedido ha sido preparado. Te redirigimos a WhatsApp para confirmarlo."
   }
-}

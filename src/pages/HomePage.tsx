@@ -1,28 +1,29 @@
 import Hero from "@/components/Hero";
 import FeaturedDishes from "@/components/FeaturedDishes";
 import AboutSection from "@/components/AboutSection";
+import AtmosphereSection from "@/components/AtmosphereSection";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight, Truck, CalendarDays, UtensilsCrossed } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import cateringHero from "@/assets/catering-hero.jpg";
-import gastrobox1 from "@/assets/gastrobox-1.jpg";
+
+const GASTROBOX_IMAGE = "/images/gastroboxes/Box Tres Sabores.jpeg";
 
 const HomePage = () => {
   const { t } = useLanguage();
   const services = [
     { icon: UtensilsCrossed, titleKey: "home.catering", descKey: "home.cateringDesc", link: "/catering", image: cateringHero },
-    { icon: Truck, titleKey: "home.gastroBoxes", descKey: "home.gastroBoxesDesc", link: "/gastro-boxes", image: gastrobox1 },
+    { icon: Truck, titleKey: "home.gastroBoxes", descKey: "home.gastroBoxesDesc", link: "/gastro-boxes", image: GASTROBOX_IMAGE },
     { icon: CalendarDays, titleKey: "home.reservations", descKey: "home.reservationsDesc", link: "/reservations", image: null },
   ];
   return (
     <div className="min-h-screen">
       <Hero />
       <FeaturedDishes />
-      <AboutSection />
 
-      {/* Services strip */}
+      {/* Services strip - Eventos y celebraciones */}
       <section className="py-24 md:py-32">
         <div className="mx-auto max-w-7xl px-6">
           <motion.div
@@ -76,25 +77,31 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="relative overflow-hidden py-24">
-        <div className="absolute inset-0 bg-gradient-gold opacity-90" />
-        <div className="relative z-10 mx-auto max-w-3xl px-6 text-center">
+      <AtmosphereSection />
+
+      <AboutSection />
+
+      {/* CTA - premium floating card */}
+      <section id="reservations-cta" className="scroll-mt-24 px-6 pt-[120px] pb-[120px]">
+        <div className="relative mx-auto max-w-[1200px] overflow-hidden rounded-[28px] bg-gradient-gold py-12 px-6 shadow-luxury md:py-[80px] md:px-[60px]">
           <motion.div
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
+            className="text-center"
           >
-            <h2 className="font-display text-4xl font-light text-white md:text-6xl">
+            <h2 className="font-display text-4xl font-light text-white md:text-5xl lg:text-6xl">
               {t("home.ctaTitle").split(" ").slice(0, -2).join(" ")}{" "}
               <span className="italic font-semibold">{t("home.ctaTitle").split(" ").slice(-2, -1)}</span>{" "}
               {t("home.ctaTitle").split(" ").slice(-1)}?
             </h2>
-            <p className="mt-4 text-base text-white/80">{t("home.ctaSubtitle")}</p>
+            <p className="mt-4 text-base text-white/70 md:text-lg">
+              {t("home.ctaSubtitle")}
+            </p>
             <Link
               to="/reservations"
-              className="mt-8 inline-flex items-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-semibold text-foreground shadow-luxury transition-all hover:shadow-lg hover:scale-[1.02]"
+              className="mt-8 inline-flex items-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-semibold text-foreground shadow-luxury transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl"
             >
               <CalendarDays size={18} />
               {t("home.reserveNow")}

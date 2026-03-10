@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { ArrowRight, CalendarDays, UtensilsCrossed } from "lucide-react";
+import { ArrowRight, CalendarDays, Phone, UtensilsCrossed } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
-import heroImg from "@/assets/hero-restaurant.jpg";
+
+const HERO_IMAGE = "/images/hero-foto/Hero foto.png";
 
 const Hero = () => {
   const { t } = useLanguage();
@@ -16,9 +17,10 @@ const Hero = () => {
         className="absolute inset-0"
       >
         <img
-          src={heroImg}
+          src={HERO_IMAGE}
           alt="FELIZ restaurant Valencia interior"
           className="h-full w-full object-cover"
+          fetchPriority="high"
         />
       </motion.div>
 
@@ -84,12 +86,13 @@ const Hero = () => {
               <UtensilsCrossed size={18} />
               {t("hero.viewMenu")}
             </Link>
-            <Link
-              to="/gastro-boxes"
+            <a
+              href="tel:+34961181824"
               className="flex items-center gap-2 rounded-full border border-white/30 px-8 py-4 text-sm font-semibold text-white backdrop-blur-sm transition-all hover:bg-white/10"
             >
-              {t("hero.orderOnline")}
-            </Link>
+              <Phone size={18} />
+              {t("hero.reserveByPhone")}
+            </a>
           </motion.div>
         </motion.div>
 

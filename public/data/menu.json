@@ -1,844 +1,153 @@
 {
-  "tostadas": [
-    {
-      "name_es": "Con aceite de oliva",
-      "name_ru": "Con aceite de oliva",
-      "description_es": "",
-      "description_ru": "",
-      "price": "2 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tomate, queso manchego",
-      "name_ru": "Tomate, queso manchego",
-      "description_es": "",
-      "description_ru": "",
-      "price": "3,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Salmon, aguacate y queso crema",
-      "name_ru": "Salmon, aguacate y queso crema",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tomates, aguacate",
-      "name_ru": "Tomates, aguacate",
-      "description_es": "",
-      "description_ru": "",
-      "price": "3,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Pechuga, queso manchego, tomate, lechuga, salsa",
-      "name_ru": "Pechuga, queso manchego, tomate, lechuga, salsa",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tomate y jamón",
-      "name_ru": "Tomate y jamón",
-      "description_es": "",
-      "description_ru": "",
-      "price": "3,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Anchoas, tomate, aguacate, queso feta",
-      "name_ru": "Anchoas, tomate, aguacate, queso feta",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Nutella con fresas",
-      "name_ru": "Nutella con fresas",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tomate",
-      "name_ru": "Tomate",
-      "description_es": "",
-      "description_ru": "",
-      "price": "2,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tomate, jamón, queso manchego",
-      "name_ru": "Tomate, jamón, queso manchego",
-      "description_es": "",
-      "description_ru": "",
-      "price": "4 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Atún, tomate rallado, allioli",
-      "name_ru": "Atún, tomate rallado, allioli",
-      "description_es": "",
-      "description_ru": "",
-      "price": "5,35 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Presa ibérica guisada, tomate, lechuga, salsa",
-      "name_ru": "Presa ibérica guisada, tomate, lechuga, salsa",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Mantequilla y mermelada",
-      "name_ru": "Mantequilla y mermelada",
-      "description_es": "",
-      "description_ru": "",
-      "price": "2,9 €",
-      "image": "/placeholder.svg"
-    }
-  ],
-  "croissants": [
-    {
-      "name_es": "Huevo benedict, salmón, salsa de queso",
-      "name_ru": "Huevo benedict, salmón, salsa de queso",
-      "description_es": "",
-      "description_ru": "",
-      "price": "9,2 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "A la plancha",
-      "name_ru": "A la plancha",
-      "description_es": "",
-      "description_ru": "",
-      "price": "2,3 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Chocolate o mantequilla y mermelada",
-      "name_ru": "Chocolate o mantequilla y mermelada",
-      "description_es": "",
-      "description_ru": "",
-      "price": "3 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Jamón york y queso",
-      "name_ru": "Jamón york y queso",
-      "description_es": "",
-      "description_ru": "",
-      "price": "3,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Huevo benedict, bacon y salsa de queso",
-      "name_ru": "Huevo benedict, bacon y salsa de queso",
-      "description_es": "",
-      "description_ru": "",
-      "price": "7,8 €",
-      "image": "/placeholder.svg"
-    }
-  ],
-  "sandwiches": [
-    {
-      "name_es": "Salmón",
-      "name_ru": "Salmón",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,8 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Jamón york y queso",
-      "name_ru": "Jamón york y queso",
-      "description_es": "",
-      "description_ru": "",
-      "price": "3,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Jamón york, queso y huevo",
-      "name_ru": "Jamón york, queso y huevo",
-      "description_es": "",
-      "description_ru": "",
-      "price": "4,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Montaña",
-      "name_ru": "Montaña",
-      "description_es": "",
-      "description_ru": "",
-      "price": "11 €",
-      "image": "/placeholder.svg"
-    }
+  "desayunos": [
+    { "name_es": "Con aceite de oliva", "name_en": "With olive oil", "name_ru": "С оливковым маслом", "description_es": "", "description_en": "", "description_ru": "", "price": "2 €", "image": "", "tags": ["vegan"], "category": "desayunos", "subcategory_es": "tostadas", "subcategory_en": "Toasts", "allergens": [1] },
+    { "name_es": "Tomate, queso manchego", "name_en": "Tomatoes and manchego cheese", "name_ru": "Помидоры и сыр манчего", "description_es": "", "description_en": "", "description_ru": "", "price": "3,5 €", "image": "tostada tomate queso manch.png", "tags": ["vegetarian"], "category": "desayunos", "subcategory_es": "tostadas", "subcategory_en": "Toasts", "allergens": [1, 8, 10, 12] },
+    { "name_es": "Salmon, aguacate y queso crema", "name_en": "Salmon, avocado and cream cheese", "name_ru": "Лосось, авокадо и сливочный сыр", "description_es": "", "description_en": "", "description_ru": "", "price": "6,5 €", "image": "tostada aguacate benedict salmon y queso .jpg", "tags": ["pescatarian"], "category": "desayunos", "subcategory_es": "tostadas", "subcategory_en": "Toasts", "allergens": [1, 6, 10, 12] },
+    { "name_es": "Tomates, aguacate", "name_en": "Tomatoes and avocado", "name_ru": "Помидоры и авокадо", "description_es": "", "description_en": "", "description_ru": "", "price": "3,5 €", "image": "tostada de tomate y aguacate.png", "tags": ["vegan"], "category": "desayunos", "subcategory_es": "tostadas", "subcategory_en": "Toasts", "allergens": [1] },
+    { "name_es": "Pechuga, queso manchego, tomate, lechuga, salsa", "name_en": "Chicken breast, manchego cheese, tomato, lettuce, sauce", "name_ru": "Куриная грудка, сыр манчего, помидор, салат", "description_es": "", "description_en": "", "description_ru": "", "price": "6,5 €", "image": "tostada de pollo con tomates y queso manchego.png", "tags": [], "category": "desayunos", "subcategory_es": "tostadas", "subcategory_en": "Toasts", "allergens": [1, 8, 10, 12] },
+    { "name_es": "Tomate y jamón", "name_en": "Tomatoes and jamon", "name_ru": "Помидоры и ветчина", "description_es": "", "description_en": "", "description_ru": "", "price": "3,5 €", "image": "", "tags": [], "category": "desayunos", "subcategory_es": "tostadas", "subcategory_en": "Toasts", "allergens": [1, 8] },
+    { "name_es": "Anchoas, tomate, aguacate, queso feta", "name_en": "Anchovies, tomato, avocado, feta cheese", "name_ru": "Анчоусы, томат, авокадо, фета", "description_es": "", "description_en": "", "description_ru": "", "price": "6,5 €", "image": "bocadillo tomate anchoas aguacate.png", "tags": ["pescatarian"], "category": "desayunos", "subcategory_es": "tostadas", "subcategory_en": "Toasts", "allergens": [1, 6, 8, 12] },
+    { "name_es": "Nutella con fresas", "name_en": "Nutella with strawberries", "name_ru": "Нутелла с клубникой", "description_es": "", "description_en": "", "description_ru": "", "price": "6,5 €", "image": "", "tags": ["vegetarian"], "category": "desayunos", "subcategory_es": "tostadas", "subcategory_en": "Toasts", "allergens": [1, 2, 3, 5, 8, 12] },
+    { "name_es": "Tomate", "name_en": "Tomato", "name_ru": "С томатом", "description_es": "", "description_en": "", "description_ru": "", "price": "2,5 €", "image": "", "tags": ["vegan"], "category": "desayunos", "subcategory_es": "tostadas", "subcategory_en": "Toasts", "allergens": [1] },
+    { "name_es": "Tomate, jamón, queso manchego", "name_en": "Tomato, jamon and manchego cheese", "name_ru": "Томат, хамон и сыр манчего", "description_es": "", "description_en": "", "description_ru": "", "price": "4 €", "image": "", "tags": [], "category": "desayunos", "subcategory_es": "tostadas", "subcategory_en": "Toasts", "allergens": [1, 8, 12] },
+    { "name_es": "Atún, tomate rallado, allioli", "name_en": "Tuna, grated tomato, allioli", "name_ru": "Тунец, тёртый томат, айоли", "description_es": "", "description_en": "", "description_ru": "", "price": "5,35 €", "image": "", "tags": ["pescatarian"], "category": "desayunos", "subcategory_es": "tostadas", "subcategory_en": "Toasts", "allergens": [1, 6, 10] },
+    { "name_es": "Presa ibérica guisada, tomate, lechuga, salsa", "name_en": "Stewed Iberian pork, tomato, lettuce, sauce", "name_ru": "Тушёная иберийская свинина, томат, салат", "description_es": "", "description_en": "", "description_ru": "", "price": "6,5 €", "image": "", "tags": [], "category": "desayunos", "subcategory_es": "tostadas", "subcategory_en": "Toasts", "allergens": [1, 8, 10, 12] },
+    { "name_es": "Mantequilla y mermelada", "name_en": "Butter and marmalade", "name_ru": "Масло и мармелад", "description_es": "", "description_en": "", "description_ru": "", "price": "2,9 €", "image": "", "tags": ["vegetarian"], "category": "desayunos", "subcategory_es": "cruasanes", "subcategory_en": "Croissants", "allergens": [1, 12] },
+    { "name_es": "Huevo benedict, salmón, salsa de queso", "name_en": "Benedict egg, salmon, cheese sauce", "name_ru": "Яйцо бенедикт с лососем и сырным соусом", "description_es": "", "description_en": "", "description_ru": "", "price": "9,2 €", "image": "cruasan benedict salmon aguacate salsa queso.jpg", "tags": ["pescatarian"], "category": "desayunos", "subcategory_es": "cruasanes", "subcategory_en": "Croissants", "allergens": [1, 6, 8, 10, 12] },
+    { "name_es": "A la plancha", "name_en": "Toasted", "name_ru": "Поджаренный", "description_es": "", "description_en": "", "description_ru": "", "price": "2,3 €", "image": "cruasan a la plancha.jpg", "tags": ["vegetarian"], "category": "desayunos", "subcategory_es": "cruasanes", "subcategory_en": "Croissants", "allergens": [1] },
+    { "name_es": "Chocolate o mantequilla y mermelada", "name_en": "Chocolate or butter with marmalade", "name_ru": "Шоколад или масло с мармеладом", "description_es": "", "description_en": "", "description_ru": "", "price": "3 €", "image": "", "tags": ["vegetarian"], "category": "desayunos", "subcategory_es": "cruasanes", "subcategory_en": "Croissants", "allergens": [1, 2, 3, 5, 8, 12] },
+    { "name_es": "Jamón york y queso", "name_en": "Ham and cheese", "name_ru": "Ветчина и сыр", "description_es": "", "description_en": "", "description_ru": "", "price": "3,5 €", "image": "sandwich jamon york y queso.jpg", "tags": [], "category": "desayunos", "subcategory_es": "sandwiches", "subcategory_en": "Sandwiches", "allergens": [1, 8, 10, 12] },
+    { "name_es": "Huevo benedict, bacon y salsa de queso", "name_en": "Benedict egg, bacon, cheese sauce", "name_ru": "Яйцо бенедикт с беконом и сырным соусом", "description_es": "", "description_en": "", "description_ru": "", "price": "7,8 €", "image": "tostada bacon benedict queso.png", "tags": [], "category": "desayunos", "subcategory_es": "tostadas", "subcategory_en": "Toasts", "allergens": [1, 8, 10, 12] },
+    { "name_es": "Salmón", "name_en": "Salmon, avocado, spinach, cream cheese, tomato", "name_ru": "Лосось, авокадо, шпинат, сливочный сыр", "description_es": "", "description_en": "", "description_ru": "", "price": "6,8 €", "image": "sandwich tomate aguacate y salmon .png", "tags": ["pescatarian"], "category": "desayunos", "subcategory_es": "sandwiches", "subcategory_en": "Sandwiches", "allergens": [1, 6, 8, 12] },
+    { "name_es": "Jamón york y queso", "name_en": "Ham and cheese", "name_ru": "Ветчина и сыр", "description_es": "", "description_en": "", "description_ru": "", "price": "3,5 €", "image": "sandwich jamon york y queso.jpg", "tags": [], "category": "desayunos", "subcategory_es": "sandwiches", "subcategory_en": "Sandwiches", "allergens": [1, 8, 10, 12] },
+    { "name_es": "Jamón york, queso y huevo", "name_en": "Ham, cheese and egg", "name_ru": "Ветчина, сыр и яйцо", "description_es": "", "description_en": "", "description_ru": "", "price": "4,5 €", "image": "", "tags": [], "category": "desayunos", "subcategory_es": "sandwiches", "subcategory_en": "Sandwiches", "allergens": [1, 8, 10, 12] },
+    { "name_es": "Montaña", "name_en": "Mountain", "name_ru": "Горный", "description_es": "", "description_en": "", "description_ru": "", "price": "11 €", "image": "", "tags": [], "category": "desayunos", "subcategory_es": "otros", "subcategory_en": "Other", "allergens": [1, 6, 8, 10, 12] }
   ],
   "combos": [
-    {
-      "name_es": "Huevos revueltos, salmón, aguacate, pan tostado, tomate rallado, ensalada de espinacas con tomate y fresa",
-      "name_ru": "Huevos revueltos, salmón, aguacate, pan tostado, tomate rallado, ensalada de espinacas con tomate y fresa",
-      "description_es": "",
-      "description_ru": "",
-      "price": "13,9 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Huevos revueltos, bacón, pan tostado, tomate rallado, ensalada de espinacas con tomate y fresa",
-      "name_ru": "Huevos revueltos, bacón, pan tostado, tomate rallado, ensalada de espinacas con tomate y fresa",
-      "description_es": "",
-      "description_ru": "",
-      "price": "9,6 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Huevos revueltos, jamón, queso manchego, pan tostado, tomate rallado, ensalada de espinacas con tomate y fresa",
-      "name_ru": "Huevos revueltos, jamón, queso manchego, pan tostado, tomate rallado, ensalada de espinacas con tomate y fresa",
-      "description_es": "",
-      "description_ru": "",
-      "price": "13,8 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Huevos revueltos, salchichas, pan tostado, tomate rallado, ensalada de espinaca con tomate y fresa",
-      "name_ru": "Huevos revueltos, salchichas, pan tostado, tomate rallado, ensalada de espinaca con tomate y fresa",
-      "description_es": "",
-      "description_ru": "",
-      "price": "11,85 €",
-      "image": "/placeholder.svg"
-    }
+    { "name_es": "Huevos revueltos, salmón, aguacate, pan tostado, tomate rallado, ensalada de espinacas con tomate y fresa", "name_en": "Scrambled eggs, salmon, avocado, toasts, minced tomato, spinach salad with tomato and strawberry", "name_ru": "Яичница с лососем, авокадо, тостами и салатом", "description_es": "", "description_en": "", "description_ru": "", "price": "13,9 €", "image": "combo revuelto con salmon .jpg", "tags": ["pescatarian"], "category": "combos", "allergens": [1, 3, 6, 10] },
+    { "name_es": "Huevos revueltos, bacón, pan tostado, tomate rallado, ensalada de espinacas con tomate y fresa", "name_en": "Scrambled eggs, bacon, toasted bread, minced tomato, spinach salad with tomato and strawberry", "name_ru": "Яичница с беконом, тостами и салатом", "description_es": "", "description_en": "", "description_ru": "", "price": "9,6 €", "image": "", "tags": [], "category": "combos", "allergens": [1, 3, 8, 10] },
+    { "name_es": "Huevos revueltos, jamón, queso manchego, pan tostado, tomate rallado, ensalada de espinacas con tomate y fresa", "name_en": "Scrambled eggs, serrano ham, manchego cheese, bread, minced tomato, spinach salad with tomato and strawberry", "name_ru": "Яичница с хамоном, сыром манчего и салатом", "description_es": "", "description_en": "", "description_ru": "", "price": "13,8 €", "image": "", "tags": [], "category": "combos", "allergens": [1, 3, 8, 10, 12] },
+    { "name_es": "Huevos revueltos, salchichas, pan tostado, tomate rallado, ensalada de espinaca con tomate y fresa", "name_en": "Scrambled eggs, sausages, toasted bread, minced tomato, spinach salad with tomato and strawberry", "name_ru": "Яичница с сосисками, тостами и салатом", "description_es": "", "description_en": "", "description_ru": "", "price": "11,85 €", "image": "", "tags": [], "category": "combos", "allergens": [1, 3, 8, 10] }
   ],
   "almuerzos": [
-    {
-      "name_es": "Pechuga de pollo, queso manchego, tomate, lechuga, salsa casera",
-      "name_ru": "Pechuga de pollo, queso manchego, tomate, lechuga, salsa casera",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,8 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Anchoas, tomate, aguacate, queso feta",
-      "name_ru": "Anchoas, tomate, aguacate, queso feta",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,8 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Presa ibérica, tomate, lechuga, salsa casera",
-      "name_ru": "Presa ibérica, tomate, lechuga, salsa casera",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,8 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Atún, tomate, allioli",
-      "name_ru": "Atún, tomate, allioli",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,8 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Chistorra, puré de patatas, tomate",
-      "name_ru": "Chistorra, puré de patatas, tomate",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Jamón con tomate",
-      "name_ru": "Jamón con tomate",
-      "description_es": "",
-      "description_ru": "",
-      "price": "5,00 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Atún, alioli y aceitunas negras",
-      "name_ru": "Atún, alioli y aceitunas negras",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,50 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Chivito",
-      "name_ru": "Chivito",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,50 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Anchoas, mozzarella y tomate",
-      "name_ru": "Anchoas, mozzarella y tomate",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,50 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Mortadela, rúcula, queso y tomate",
-      "name_ru": "Mortadela, rúcula, queso y tomate",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,50 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Vegano",
-      "name_ru": "Vegano",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,50 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Calamares fritos con mayonesa",
-      "name_ru": "Calamares fritos con mayonesa",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,50 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Pollo crujiente con tomate, lechuga, salsa casera y queso manchego",
-      "name_ru": "Pollo crujiente con tomate, lechuga, salsa casera y queso manchego",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,50 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Carne picada con parmesano, mayonesa y pepinillos agridulces",
-      "name_ru": "Carne picada con parmesano, mayonesa y pepinillos agridulces",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6,50 €",
-      "image": "/placeholder.svg"
-    }
+    { "name_es": "Pechuga de pollo, queso manchego, tomate, lechuga, salsa casera", "name_en": "Chicken breast, manchego cheese, tomato, lettuce, homemade sauce", "name_ru": "Куриная грудка, сыр манчего, помидор, салат", "description_es": "", "description_en": "", "description_ru": "", "price": "6,8 €", "image": "bocadillo de pollo con tomate y queso manchego .png", "tags": [], "category": "almuerzos", "allergens": [1, 8, 10, 12] },
+    { "name_es": "Anchoas, tomate, aguacate, queso feta", "name_en": "Anchovies, tomato, avocado, feta cheese", "name_ru": "Анчоусы, томат, авокадо, фета", "description_es": "", "description_en": "", "description_ru": "", "price": "6,8 €", "image": "bocadillo tomate anchoas aguacate.png", "tags": ["pescatarian"], "category": "almuerzos", "allergens": [1, 6, 8, 12] },
+    { "name_es": "Presa ibérica, tomate, lechuga, salsa casera", "name_en": "Iberian pork, tomatoes, lettuce and homemade sauce", "name_ru": "Иберийская свинина, помидоры, салат", "description_es": "", "description_en": "", "description_ru": "", "price": "6,8 €", "image": "presa iberica con patatas rustico.png", "tags": [], "category": "almuerzos", "allergens": [1, 8, 10, 12] },
+    { "name_es": "Atún, tomate, allioli", "name_en": "Tuna, tomato, allioli", "name_ru": "Тунец, томат, айоли", "description_es": "", "description_en": "", "description_ru": "", "price": "6,8 €", "image": "", "tags": ["pescatarian"], "category": "almuerzos", "allergens": [1, 6, 10] },
+    { "name_es": "Chistorra, puré de patatas, tomate", "name_en": "Chistorra, mashed potatoes, tomato", "name_ru": "Чисторра с пюре и томатом", "description_es": "", "description_en": "", "description_ru": "", "price": "6,5 €", "image": "", "tags": [], "category": "almuerzos", "allergens": [1, 8, 10] },
+    { "name_es": "Jamón con tomate", "name_en": "Jamon with tomato", "name_ru": "Хамон с томатом", "description_es": "", "description_en": "", "description_ru": "", "price": "5,00 €", "image": "", "tags": [], "category": "almuerzos", "allergens": [1, 8] },
+    { "name_es": "Atún, alioli y aceitunas negras", "name_en": "Tuna, allioli and black olives", "name_ru": "Тунец, айоли и маслины", "description_es": "", "description_en": "", "description_ru": "", "price": "6,50 €", "image": "", "tags": ["pescatarian"], "category": "almuerzos", "allergens": [1, 6, 10] },
+    { "name_es": "Chivito", "name_en": "Chivito", "name_ru": "Чивито", "description_es": "", "description_en": "", "description_ru": "", "price": "6,50 €", "image": "bocadillo Chivito.jpg", "tags": [], "category": "almuerzos", "allergens": [1, 8, 10, 12] },
+    { "name_es": "Anchoas, mozzarella y tomate", "name_en": "Anchovies, mozzarella and tomato", "name_ru": "Анчоусы, моцарелла и томат", "description_es": "", "description_en": "", "description_ru": "", "price": "6,50 €", "image": "", "tags": ["pescatarian"], "category": "almuerzos", "allergens": [1, 6, 8, 12] },
+    { "name_es": "Mortadela, rúcula, queso y tomate", "name_en": "Mortadella, rocket, cheese and tomato", "name_ru": "Мортаделла, руккола, сыр и томат", "description_es": "", "description_en": "", "description_ru": "", "price": "6,50 €", "image": "", "tags": [], "category": "almuerzos", "allergens": [1, 8, 12] },
+    { "name_es": "Vegano", "name_en": "Vegan", "name_ru": "Веганский", "description_es": "", "description_en": "", "description_ru": "", "price": "6,50 €", "image": "", "tags": ["vegan"], "category": "almuerzos", "allergens": [1] },
+    { "name_es": "Calamares fritos con mayonesa", "name_en": "Fried calamari with mayonnaise", "name_ru": "Жареные кальмары с майонезом", "description_es": "", "description_en": "", "description_ru": "", "price": "6,50 €", "image": "", "tags": ["pescatarian"], "category": "almuerzos", "allergens": [1, 6, 10, 11] },
+    { "name_es": "Pollo crujiente con tomate, lechuga, salsa casera y queso manchego", "name_en": "Crispy chicken with tomato, lettuce, homemade sauce and manchego cheese", "name_ru": "Хрустящая курица с томатом, салатом и сыром манчего", "description_es": "", "description_en": "", "description_ru": "", "price": "6,50 €", "image": "", "tags": [], "category": "almuerzos", "allergens": [1, 8, 10, 12] },
+    { "name_es": "Carne picada con parmesano, mayonesa y pepinillos agridulces", "name_en": "Minced meat with parmesan, mayonnaise and sweet pickles", "name_ru": "Фарш с пармезаном, майонезом и маринованными огурцами", "description_es": "", "description_en": "", "description_ru": "", "price": "6,50 €", "image": "", "tags": [], "category": "almuerzos", "allergens": [1, 8, 10, 12] }
   ],
-  "tapas": [
-    {
-      "name_es": "Tar-tar de vacuno",
-      "name_ru": "Тартар из говядины",
-      "description_es": "",
-      "description_ru": "",
-      "price": "18,9 €",
-      "image": "tartar vacuno.png"
-    },
-    {
-      "name_es": "Flor de alcachofa con foie y yema de huevo",
-      "name_ru": "Цветок артишока с фуа-гра и желтком",
-      "description_es": "",
-      "description_ru": "",
-      "price": "11,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tablas de pan",
-      "name_ru": "Хлебная доска",
-      "description_es": "",
-      "description_ru": "",
-      "price": "3,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tabla de Jamón Ibérico (100g)",
-      "name_ru": "Тарелка хамона иберико (100 г)",
-      "description_es": "",
-      "description_ru": "",
-      "price": "21 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Calamares a la Romana",
-      "name_ru": "Кальмары в кляре",
-      "description_es": "",
-      "description_ru": "",
-      "price": "13,8 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Ensaladilla rusa con gambas",
-      "name_ru": "Оливье с креветками",
-      "description_es": "",
-      "description_ru": "",
-      "price": "8,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Patatas rústicas a la brava",
-      "name_ru": "Картофель по-брабантски",
-      "description_es": "",
-      "description_ru": "",
-      "price": "8 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Gambas rojas",
-      "name_ru": "Красные креветки",
-      "description_es": "",
-      "description_ru": "",
-      "price": "18,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Zamburiñas (8 uds)",
-      "name_ru": "Сантилья (8 шт.)",
-      "description_es": "",
-      "description_ru": "",
-      "price": "22 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tellinas",
-      "name_ru": "Тельинас",
-      "description_es": "",
-      "description_ru": "",
-      "price": "13,6 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Queso frito con frutos secos y salsa de frutos del bosque",
-      "name_ru": "Жареный сыр с орехами и ягодным соусом",
-      "description_es": "",
-      "description_ru": "",
-      "price": "9,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tabla de quesos con miel, mermelada y frutos secos",
-      "name_ru": "Сырная тарелка с мёдом и орехами",
-      "description_es": "",
-      "description_ru": "",
-      "price": "16 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Pulpo con puré de patata y trufa negra, salsa verde",
-      "name_ru": "Осьминог с пюре, трюфелем и зелёным соусом",
-      "description_es": "",
-      "description_ru": "",
-      "price": "23 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tartar de atún, aguacate, alga y salsa",
-      "name_ru": "Тартар из тунца с авокадо и водорослями",
-      "description_es": "",
-      "description_ru": "",
-      "price": "14,3 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tar-tar de tomate premium, fresa, aguacate, cebolla y salsa agridulce",
-      "name_ru": "Тартар из томата с клубникой и авокадо",
-      "description_es": "",
-      "description_ru": "",
-      "price": "8,6 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tataki de atún rojo con salsa de soja",
-      "name_ru": "Татаки из тунца с соевым соусом",
-      "description_es": "",
-      "description_ru": "",
-      "price": "19,40 €",
-      "image": "/placeholder.svg"
-    }
+  "entrantes": [
+    { "name_es": "Tar-tar de vacuno", "name_en": "Beef tartare", "name_ru": "Тартар из говядины", "description_es": "Tartar de ternera con alcaparras, cebolla y yema de huevo", "description_en": "Beef tartare with capers, onion and egg yolk", "description_ru": "Тартар из телятины с каперсами, луком и яичным желтком", "price": "18,9 €", "image": "tartar vacuno.png", "tags": [], "category": "entrantes", "allergens": [10] },
+    { "name_es": "Flor de alcachofa con foie y yema de huevo", "name_en": "Artichoke flower with foie gras and egg yolk", "name_ru": "Цветок артишока с фуа-гра и желтком", "description_es": "Flor de alcachofa rellena con foie y yema de huevo", "description_en": "Artichoke flower filled with foie gras and egg yolk", "description_ru": "Артишок, фаршированный фуа-гра и яичным желтком", "price": "11,5 €", "image": "flor alcachofa foie con llema.png", "tags": [], "category": "entrantes", "allergens": [10] },
+    { "name_es": "Tablas de pan", "name_en": "Bread boards", "name_ru": "Хлебные тарелки", "description_es": "Pan artesanal con aceite y tomate", "description_en": "Artisan bread with olive oil and tomato", "description_ru": "Ремесленный хлеб с оливковым маслом и томатом", "price": "3,5 €", "image": "", "tags": ["vegetarian"], "category": "entrantes", "allergens": [1] },
+    { "name_es": "Tabla de Jamón Ibérico (100g)", "name_en": "Iberian ham board (100g)", "name_ru": "Тарелка иберийского хамона (100 г)", "description_es": "Jamón ibérico de bellota cortado a mano", "description_en": "Hand-cut acorn-fed Iberian ham", "description_ru": "Иберийский хамон из желудей, нарезанный вручную", "price": "21 €", "image": "", "tags": [], "category": "entrantes", "allergens": [] },
+    { "name_es": "Calamares a la Romana", "name_en": "Fried calamari", "name_ru": "Кальмары в кляре", "description_es": "Calamares rebozados fritos con limón", "description_en": "Battered fried calamari with lemon", "description_ru": "Кальмары в кляре с лимоном", "price": "13,8 €", "image": "", "tags": ["pescatarian"], "category": "entrantes", "allergens": [1, 6, 10] },
+    { "name_es": "Ensaladilla rusa con gambas", "name_en": "Russian salad with prawns", "name_ru": "Оливье с креветками", "description_es": "Ensaladilla rusa tradicional con gambas", "description_en": "Traditional Russian salad with prawns", "description_ru": "Традиционный салат оливье с креветками", "price": "8,5 €", "image": "", "tags": ["pescatarian"], "category": "entrantes", "allergens": [6, 10, 11, 12] },
+    { "name_es": "Patatas rústicas a la brava", "name_en": "Rustic potatoes with brava sauce", "name_ru": "Картофель по-деревенски с соусом брава", "description_es": "Patatas rústicas con salsa brava", "description_en": "Rustic potatoes with spicy brava sauce", "description_ru": "Деревенский картофель с острым соусом брава", "price": "8 €", "image": "", "tags": ["vegetarian"], "category": "entrantes", "allergens": [] },
+    { "name_es": "Gambas rojas", "name_en": "Red prawns", "name_ru": "Красные креветки", "description_es": "Gambas rojas de Denia a la plancha", "description_en": "Grilled Denia red prawns", "description_ru": "Красные креветки из Дении на гриле", "price": "18,5 €", "image": "", "tags": ["pescatarian"], "category": "entrantes", "allergens": [6, 11] },
+    { "name_es": "Zamburiñas (8 uds)", "name_en": "Scallops (8 pcs)", "name_ru": "Морские гребешки (8 шт.)", "description_es": "", "description_en": "", "description_ru": "", "price": "22 €", "image": "", "tags": ["pescatarian"], "category": "entrantes", "allergens": [8, 9, 12] },
+    { "name_es": "Tellinas", "name_en": "Tellinas clams", "name_ru": "Телинас (моллюски)", "description_es": "Tellinas a la plancha con ajo y perejil", "description_en": "Grilled tellinas with garlic and parsley", "description_ru": "Телинас на гриле с чесноком и петрушкой", "price": "13,6 €", "image": "", "tags": ["pescatarian"], "category": "entrantes", "allergens": [6, 7] },
+    { "name_es": "Queso frito con frutos secos y salsa de frutos del bosque", "name_en": "Fried cheese with nuts and berry sauce", "name_ru": "Жареный сыр с орехами и ягодным соусом", "description_es": "Queso frito con frutos secos y salsa de frutos del bosque", "description_en": "Fried cheese with nuts and forest berry sauce", "description_ru": "Жареный сыр с орехами и лесным ягодным соусом", "price": "9,5 €", "image": "", "tags": ["vegetarian"], "category": "entrantes", "allergens": [2, 12] },
+    { "name_es": "Tabla de quesos con miel, mermelada y frutos secos", "name_en": "Cheese board with honey, jam and nuts", "name_ru": "Сырная тарелка с мёдом, джемом и орехами", "description_es": "Selección de quesos con miel, mermelada y frutos secos", "description_en": "Selection of cheeses with honey, jam and nuts", "description_ru": "Подборка сыров с мёдом, джемом и орехами", "price": "16 €", "image": "", "tags": ["vegetarian"], "category": "entrantes", "allergens": [2, 12] },
+    { "name_es": "Pulpo con puré de patata y trufa negra, salsa verde", "name_en": "Octopus with mashed potato and black truffle, green sauce", "name_ru": "Осьминог с пюре и чёрной трюфелью, зелёный соус", "description_es": "Pulpo con puré de patata, trufa negra y salsa verde", "description_en": "Octopus with mashed potato, black truffle and green sauce", "description_ru": "Осьминог с картофельным пюре, чёрной трюфелью и зелёным соусом", "price": "23 €", "image": "", "tags": ["pescatarian"], "category": "entrantes", "allergens": [6, 10] },
+    { "name_es": "Tartar de atún, aguacate, alga y salsa", "name_en": "Tuna tartare with avocado, seaweed and sauce", "name_ru": "Тартар из тунца с авокадо и водорослями", "description_es": "Tartar de atún con aguacate, alga y salsa", "description_en": "Tuna tartare with avocado, seaweed and sauce", "description_ru": "Тартар из тунца с авокадо, водорослями и соусом", "price": "14,3 €", "image": "", "tags": ["pescatarian"], "category": "entrantes", "allergens": [6] },
+    { "name_es": "Tar-tar de tomate premium, fresa, aguacate, cebolla y salsa agridulce", "name_en": "Premium tomato tartare with strawberry, avocado and sweet-sour sauce", "name_ru": "Премиум тартар из томата с клубникой и авокадо", "description_es": "Tartar de tomate premium con fresa, aguacate, cebolla y salsa agridulce", "description_en": "Premium tomato tartare with strawberry, avocado, onion and sweet-sour sauce", "description_ru": "Премиум тартар из томата с клубникой, авокадо, луком и кисло-сладким соусом", "price": "8,6 €", "image": "", "tags": ["vegan"], "category": "entrantes", "allergens": [] },
+    { "name_es": "Tataki de atún rojo con salsa de soja", "name_en": "Red tuna tataki with soy sauce", "name_ru": "Татаки из красного тунца с соевым соусом", "description_es": "", "description_en": "", "description_ru": "", "price": "19,40 €", "image": "", "tags": ["pescatarian"], "category": "entrantes", "allergens": [3, 6, 13] }
   ],
   "ensaladas": [
-    {
-      "name_es": "Griega",
-      "name_ru": "Греческий салат",
-      "description_es": "",
-      "description_ru": "",
-      "price": "12,90 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Ensalada Caprese",
-      "name_ru": "Салат Капрезе",
-      "description_es": "",
-      "description_ru": "",
-      "price": "9,20 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tomate Premium",
-      "name_ru": "Премиум-томат",
-      "description_es": "",
-      "description_ru": "",
-      "price": "14,60 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Ensalada Picasso",
-      "name_ru": "Салат Пикассо",
-      "description_es": "",
-      "description_ru": "",
-      "price": "13,80 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Ensalada Vivaldi",
-      "name_ru": "Салат Вивальди",
-      "description_es": "",
-      "description_ru": "",
-      "price": "13,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Brocolini con salsa de queso",
-      "name_ru": "Броколини с сырным соусом",
-      "description_es": "",
-      "description_ru": "",
-      "price": "11,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Ensalada César",
-      "name_ru": "Салат Цезарь",
-      "description_es": "",
-      "description_ru": "",
-      "price": "12,5 €",
-      "image": "/placeholder.svg"
-    }
+    { "name_es": "Griega", "name_en": "Greek salad", "name_ru": "Греческий салат", "description_es": "Tomate, queso feta, lechuga, pimiento, cebolla, pepino, aceitunas negras, alcaparras", "description_en": "Tomatoes, feta cheese, lettuce, bell pepper, onion, cucumber, black olives & capers", "description_ru": "Томат, сыр фета, салат, перец, лук, огурец, маслины, каперсы", "price": "12,90 €", "image": "ensalada griega.png", "tags": ["vegetarian"], "category": "ensaladas", "allergens": [10, 12] },
+    { "name_es": "Ensalada Caprese", "name_en": "Caprese salad", "name_ru": "Салат Капрезе", "description_es": "Ensalada caprese con tomate, queso mozzarella, rúcula y pesto", "description_en": "Caprese salad with tomato, mozzarella, arugula and green pesto", "description_ru": "Салат капрезе с томатом, моцареллой, рукколой и зелёным песто", "price": "9,20 €", "image": "", "tags": ["vegetarian"], "category": "ensaladas", "allergens": [2, 12] },
+    { "name_es": "Tomate Premium", "name_en": "Premium tomato", "name_ru": "Премиум томат", "description_es": "Tomate premium con ventresca de atún, alcaparras, cebolla, lechuga, aceitunas y salsa verde", "description_en": "Premium tomato with tuna belly, capers, olives, onion, lettuce & green sauce", "description_ru": "Премиум томат с тунцом вентреска, каперсами, луком, салатом и зелёным соусом", "price": "14,60 €", "image": "Premium tomato.jpeg", "tags": [], "category": "ensaladas", "allergens": [6, 8] },
+    { "name_es": "Ensalada Picasso", "name_en": "Picasso salad", "name_ru": "Салат Пикассо", "description_es": "Queso Burrata, anchoas, tomate, pimientos dulces asados, vinagre balsámico", "description_en": "Burrata, anchovies, sweet roasted bell peppers, balsamic vinegar & tomato", "description_ru": "Буррата, анчоусы, томат, сладкий перец, бальзамический уксус", "price": "13,80 €", "image": "ensalada picaso .jpg", "tags": ["pescatarian"], "category": "ensaladas", "allergens": [6, 12] },
+    { "name_es": "Ensalada Vivaldi", "name_en": "Vivaldi salad", "name_ru": "Салат Вивальди", "description_es": "Salmon, aguacate, tomate cherry, lechuga sésamo y salsa de soja dulce", "description_en": "Salmon, avocado, cherry tomato, lettuce, sesame seed and sweet soy sauce", "description_ru": "Лосось, авокадо, черри, салат, кунжут и сладкий соевый соус", "price": "13,5 €", "image": "ensalada vivaldi .png", "tags": ["pescatarian"], "category": "ensaladas", "allergens": [6, 13] },
+    { "name_es": "Brocolini con salsa de queso", "name_en": "Broccolini with cheese sauce", "name_ru": "Брокколини с сырным соусом", "description_es": "Brocolini en salsa de queso, huevo benedict y bacon", "description_en": "Brocolini with cheese sauce, benedict egg & bacon", "description_ru": "Брокколини в сырном соусе с яйцом бенедикт и беконом", "price": "11,5 €", "image": "esalada brocolini benedict queso.png", "tags": ["vegetarian"], "category": "ensaladas", "allergens": [1, 4, 8, 10, 12] },
+    { "name_es": "Ensalada César", "name_en": "Caesar salad", "name_ru": "Салат Цезарь", "description_es": "Pollo, queso parmesano, salsa casera de anchoas, lechuga, tomate cherry y gambas", "description_en": "Chicken, prawns, cherry tomatoes, lettuce, parmesan cheese, homemade sauce with anchovies", "description_ru": "Курица, креветки, черри, салат, пармезан, домашний соус с анчоусами", "price": "12,5 €", "image": "", "tags": [], "category": "ensaladas", "allergens": [1, 10, 11, 12] }
   ],
   "pescados": [
-    {
-      "name_es": "Titaina valenciana con ventresca",
-      "name_ru": "Титайна по-валенсийски с вентреской",
-      "description_es": "",
-      "description_ru": "",
-      "price": "16,3 €",
-      "image": "titaina valenciana.png"
-    },
-    {
-      "name_es": "Lubina a la plancha con salsa de queso y brocolini",
-      "name_ru": "Сибас на гриле с сырным соусом",
-      "description_es": "",
-      "description_ru": "",
-      "price": "19,8 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Dorada horneada a la sal con limón",
-      "name_ru": "Дорадо в соли с лимоном",
-      "description_es": "",
-      "description_ru": "",
-      "price": "22,3 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Rodaballo con ajo y sal negra",
-      "name_ru": "Палтус с чесноком и чёрной солью",
-      "description_es": "",
-      "description_ru": "",
-      "price": "22,3 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Salmón al cava con naranjas",
-      "name_ru": "Лосось с кавой и апельсинами",
-      "description_es": "",
-      "description_ru": "",
-      "price": "22 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Zamburiñas",
-      "name_ru": "Сантилья",
-      "description_es": "",
-      "description_ru": "",
-      "price": "19,8 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tataki de atún rojo con salsa de soja",
-      "name_ru": "Татаки из тунца с соевым соусом",
-      "description_es": "",
-      "description_ru": "",
-      "price": "19,40 €",
-      "image": "/placeholder.svg"
-    }
+    { "name_es": "Titaina valenciana con ventresca", "name_en": "Valencian ratatouille with tuna belly and pine nuts", "name_ru": "Титайна с тунцом вентреска и кедровыми орехами", "description_es": "Titaina valenciana con ventresca de atún y piñones", "description_en": "Valencian ratatouille with tuna belly and pine nuts", "description_ru": "Валенсийская титайна с тунцом вентреска и кедровыми орехами", "price": "16,3 €", "image": "titaina valenciana.png", "tags": ["pescatarian"], "category": "pescados", "allergens": [2, 6, 8, 9] },
+    { "name_es": "Lubina a la plancha con salsa de queso y brocolini", "name_en": "Seabass with cheese sauce & brocolini", "name_ru": "Сибас с сырным соусом и брокколини", "description_es": "Lubina a la plancha con salsa de queso y brocolini", "description_en": "Grilled seabass with cheese sauce and broccolini", "description_ru": "Сибас на гриле с сырным соусом и брокколини", "price": "19,8 €", "image": "lubina brocolini.png", "tags": ["pescatarian"], "category": "pescados", "allergens": [1, 6, 10, 12] },
+    { "name_es": "Dorada horneada a la sal con limón", "name_en": "Baked-in-salt seabream", "name_ru": "Дорада, запечённая в соли", "description_es": "", "description_en": "", "description_ru": "", "price": "22,3 €", "image": "", "tags": ["pescatarian"], "category": "pescados", "allergens": [6, 10] },
+    { "name_es": "Rodaballo con ajo y sal negra", "name_en": "Grilled turbot with garlic and black salt", "name_ru": "Камбала с чесноком и чёрной солью", "description_es": "", "description_en": "", "description_ru": "", "price": "22,3 €", "image": "", "tags": ["pescatarian"], "category": "pescados", "allergens": [1, 6, 10, 12] },
+    { "name_es": "Salmón al cava con naranjas", "name_en": "Salmon in cava & fresh orange sauce", "name_ru": "Лосось в каве с апельсиновым соусом", "description_es": "", "description_en": "", "description_ru": "", "price": "22 €", "image": "", "tags": ["pescatarian"], "category": "pescados", "allergens": [6, 9] },
+    { "name_es": "Zamburiñas", "name_en": "Scallops", "name_ru": "Морские гребешки", "description_es": "", "description_en": "", "description_ru": "", "price": "19,8 €", "image": "", "tags": ["pescatarian"], "category": "pescados", "allergens": [8, 9, 12] },
+    { "name_es": "Tataki de atún rojo con salsa de soja", "name_en": "Red tuna tataki with soy sauce", "name_ru": "Татаки из красного тунца с соевым соусом", "description_es": "", "description_en": "", "description_ru": "", "price": "19,40 €", "image": "", "tags": ["pescatarian"], "category": "pescados", "allergens": [3, 6, 13] }
   ],
   "carnes": [
-    {
-      "name_es": "Presa ibérica con guarnición y salsa Pedro Ximenez",
-      "name_ru": "Иберийская преса с соусом Pedro Ximénez",
-      "description_es": "",
-      "description_ru": "",
-      "price": "18,20 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Magret de pato con salsa de arándanos y pera frita",
-      "name_ru": "Утиная грудка с черничным соусом",
-      "description_es": "",
-      "description_ru": "",
-      "price": "21,9 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Guiso de rabo de toro a la cordobesa con pimientos de padrón",
-      "name_ru": "Рабо де торо по-кордовски",
-      "description_es": "",
-      "description_ru": "",
-      "price": "23,20 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Carrillada de ternera guisada en cama de puré de patatas",
-      "name_ru": "Щёчки телятины на пюре",
-      "description_es": "",
-      "description_ru": "",
-      "price": "24,30 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Chuletón madurado 40 días a la parrilla sobre la piedra caliente",
-      "name_ru": "Стейк на камне 40 дней выдержки",
-      "description_es": "",
-      "description_ru": "",
-      "price": "26,70 €",
-      "image": "chuletón a la piedra.png"
-    },
-    {
-      "name_es": "Solomillo de ternera con salsa Pedro Ximenez",
-      "name_ru": "Вырезка с соусом Pedro Ximénez",
-      "description_es": "",
-      "description_ru": "",
-      "price": "22 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Chuletas de cordero con mantequilla",
-      "name_ru": "Бараньи отбивные с маслом",
-      "description_es": "",
-      "description_ru": "",
-      "price": "19,30 €",
-      "image": "/placeholder.svg"
-    }
+    { "name_es": "Presa ibérica con guarnición y salsa Pedro Ximenez", "name_en": "Iberian pork with vegetable garnish and Pedro Ximenez sauce", "name_ru": "Иберийская свинина с гарниром и соусом Pedro Ximenez", "description_es": "Presa ibérica con guarnición de verduras y salsa Pedro Ximénez", "description_en": "Iberian pork with vegetable garnish and Pedro Ximenez sauce", "description_ru": "Иберийская свинина с овощным гарниром и соусом Pedro Ximenez", "price": "18,20 €", "image": "presa iberica con patatas rustico.png", "tags": [], "category": "carnes", "allergens": [8, 9] },
+    { "name_es": "Magret de pato con salsa de arándanos y pera frita", "name_en": "Duck breast with blueberry sauce", "name_ru": "Утиная грудка с черничным соусом", "description_es": "", "description_en": "", "description_ru": "", "price": "21,9 €", "image": "", "tags": [], "category": "carnes", "allergens": [] },
+    { "name_es": "Guiso de rabo de toro a la cordobesa con pimientos de padrón", "name_en": "Oxtail stew in cordovan style with Padrón peppers", "name_ru": "Рагу из бычьего хвоста с перцами падрон", "description_es": "", "description_en": "", "description_ru": "", "price": "23,20 €", "image": "", "tags": [], "category": "carnes", "allergens": [1, 8] },
+    { "name_es": "Carrillada de ternera guisada en cama de puré de patatas", "name_en": "Stewed beef cheeks on a mashed potatoes bed", "name_ru": "Тушёные говяжьи щёчки на картофельном пюре", "description_es": "", "description_en": "", "description_ru": "", "price": "24,30 €", "image": "", "tags": [], "category": "carnes", "allergens": [1, 8] },
+    { "name_es": "Chuletón madurado 40 días a la parrilla sobre la piedra caliente", "name_en": "Grilled 40 day aged T-Bone steak, served on the hot stone", "name_ru": "Стейк рибай (выдержка 40 дней) на горячем камне", "description_es": "", "description_en": "", "description_ru": "", "price": "26,70 €", "image": "chuleton a la piedra.png", "tags": [], "category": "carnes", "allergens": [] },
+    { "name_es": "Solomillo de ternera con salsa Pedro Ximenez", "name_en": "Beef sirloin with Pedro Ximenez sauce", "name_ru": "Говяжья вырезка с соусом Pedro Ximenez", "description_es": "", "description_en": "", "description_ru": "", "price": "22 €", "image": "", "tags": [], "category": "carnes", "allergens": [8] },
+    { "name_es": "Chuletas de cordero con mantequilla", "name_en": "Lamb chops with butter", "name_ru": "Бараньи отбивные с маслом", "description_es": "", "description_en": "", "description_ru": "", "price": "19,30 €", "image": "", "tags": [], "category": "carnes", "allergens": [1, 10, 11, 12] }
   ],
   "complementos": [
-    {
-      "name_es": "Tabla de pan (aceite y tomate)",
-      "name_ru": "Хлеб с маслом и томатом",
-      "description_es": "",
-      "description_ru": "",
-      "price": "3,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Verdura a la plancha con salsa verde",
-      "name_ru": "Овощи на гриле с зелёным соусом",
-      "description_es": "",
-      "description_ru": "",
-      "price": "9,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Puré de patata",
-      "name_ru": "Картофельное пюре",
-      "description_es": "",
-      "description_ru": "",
-      "price": "4,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Patatas fritas",
-      "name_ru": "Картофель фри",
-      "description_es": "",
-      "description_ru": "",
-      "price": "4 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tabla de pan (aceitunas)",
-      "name_ru": "Хлеб с оливками",
-      "description_es": "",
-      "description_ru": "",
-      "price": "3,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Arroz blanco",
-      "name_ru": "Рис отварной",
-      "description_es": "",
-      "description_ru": "",
-      "price": "4,5 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Wakame",
-      "name_ru": "Вакаме",
-      "description_es": "",
-      "description_ru": "",
-      "price": "6 €",
-      "image": "/placeholder.svg"
-    }
+    { "name_es": "Tabla de pan (Aceite y tomate)", "name_en": "Toasts with allioli and tomatoes", "name_ru": "Тосты с айоли и томатами", "description_es": "", "description_en": "", "description_ru": "", "price": "3,5 €", "image": "", "tags": ["vegetarian"], "category": "complementos", "allergens": [1, 10], "subcategory_es": "pan", "subcategory_en": "Bread" },
+    { "name_es": "Verdura a la plancha con salsa verde", "name_en": "Grilled vegetables with green sauce", "name_ru": "Овощи на гриле с зелёным соусом", "description_es": "", "description_en": "", "description_ru": "", "price": "9,5 €", "image": "", "tags": ["vegan"], "category": "complementos", "allergens": [], "subcategory_es": "verdura", "subcategory_en": "Vegetables" },
+    { "name_es": "Puré de patata", "name_en": "Mashed potatoes", "name_ru": "Картофельное пюре", "description_es": "", "description_en": "", "description_ru": "", "price": "4,5 €", "image": "", "tags": ["vegetarian"], "category": "complementos", "allergens": [1, 10, 11, 12], "subcategory_es": "patatas", "subcategory_en": "Potatoes" },
+    { "name_es": "Patatas fritas", "name_en": "French fries", "name_ru": "Картофель фри", "description_es": "", "description_en": "", "description_ru": "", "price": "4 €", "image": "", "tags": ["vegan"], "category": "complementos", "allergens": [], "subcategory_es": "patatas", "subcategory_en": "Potatoes" },
+    { "name_es": "Tabla de pan (Aceitunas)", "name_en": "Bread with olive oil and olives", "name_ru": "Хлеб с оливковым маслом и маслинами", "description_es": "", "description_en": "", "description_ru": "", "price": "3,5 €", "image": "", "tags": ["vegan"], "category": "complementos", "allergens": [1], "subcategory_es": "pan", "subcategory_en": "Bread" },
+    { "name_es": "Arroz blanco", "name_en": "White rice", "name_ru": "Белый рис", "description_es": "", "description_en": "", "description_ru": "", "price": "4,5 €", "image": "", "tags": ["vegan"], "category": "complementos", "allergens": [12], "subcategory_es": "arroz", "subcategory_en": "Rice" },
+    { "name_es": "Wakame", "name_en": "Wakame seaweed", "name_ru": "Вакаме (водоросли)", "description_es": "", "description_en": "", "description_ru": "", "price": "6 €", "image": "", "tags": ["vegan"], "category": "complementos", "allergens": [13], "subcategory_es": "otros", "subcategory_en": "Other" }
   ],
   "arroces": [
-    {
-      "name_es": "Valenciana al estilo feliz",
-      "name_ru": "Паэлья по-валенсийски FELIZ",
-      "description_es": "",
-      "description_ru": "",
-      "price": "16,9 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Marisco",
-      "name_ru": "Паэлья с морепродуктами",
-      "description_es": "",
-      "description_ru": "",
-      "price": "18,9 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Arroz negro",
-      "name_ru": "Чёрный рис",
-      "description_es": "",
-      "description_ru": "",
-      "price": "18,9 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Verdura",
-      "name_ru": "Рис с овощами",
-      "description_es": "",
-      "description_ru": "",
-      "price": "16 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Fideuá a la marinera",
-      "name_ru": "Фидеуа с морепродуктами",
-      "description_es": "",
-      "description_ru": "",
-      "price": "18,6 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Arroz meloso con bogavante",
-      "name_ru": "Кремовый рис с омаром",
-      "description_es": "",
-      "description_ru": "",
-      "price": "22,5 €",
-      "image": "arroz bogovante.png"
-    },
-    {
-      "name_es": "Arroz con chuletón y bacon",
-      "name_ru": "Рис со стейком и беконом",
-      "description_es": "",
-      "description_ru": "",
-      "price": "25,7 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Fideuá de pulpo con alcachofa",
-      "name_ru": "Фидеуа с осьминогом и артишоками",
-      "description_es": "",
-      "description_ru": "",
-      "price": "25,7 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Arroz con magret de pato y setas",
-      "name_ru": "Рис с утиной грудкой и грибами",
-      "description_es": "",
-      "description_ru": "",
-      "price": "25,7 €",
-      "image": "/placeholder.svg"
-    }
+    { "name_es": "Valenciana al estilo feliz", "name_en": "Chicken, artichokes, white and green beans, rosemary, rice", "name_ru": "Паэлья Валенсиана", "description_es": "", "description_en": "", "description_ru": "", "price": "16,9 €", "image": "paella valenciana.jpg", "tags": [], "category": "arroces", "allergens": [4, 8, 10], "subcategory_es": "para_una_persona", "subcategory_en": "For one person" },
+    { "name_es": "Verdura", "name_en": "Grilled vegetables, white and green beans, rice", "name_ru": "Рис с овощами", "description_es": "", "description_en": "", "description_ru": "", "price": "16 €", "image": "", "tags": ["vegan"], "category": "arroces", "allergens": [1, 10], "subcategory_es": "para_una_persona", "subcategory_en": "For one person" },
+    { "name_es": "Marisco", "name_en": "Prawns, squid tips, mussels, rice", "name_ru": "Паэлья с морепродуктами", "description_es": "", "description_en": "", "description_ru": "", "price": "18,9 €", "image": "paella marisco.jpg", "tags": ["pescatarian"], "category": "arroces", "allergens": [6, 7, 8, 10, 11], "subcategory_es": "para_una_persona", "subcategory_en": "For one person" },
+    { "name_es": "Fideuá a la marinera", "name_en": "Prawns, squid tips, mussels, short noodles", "name_ru": "Фидеуа с морепродуктами", "description_es": "", "description_en": "", "description_ru": "", "price": "18,6 €", "image": "", "tags": ["pescatarian"], "category": "arroces", "allergens": [6, 7, 8, 10, 11], "subcategory_es": "para_una_persona", "subcategory_en": "For one person" },
+    { "name_es": "Arroz negro", "name_en": "Prawns, squid tips, mussels, squid ink, rice", "name_ru": "Чёрный рис с морепродуктами", "description_es": "", "description_en": "", "description_ru": "", "price": "18,9 €", "image": "", "tags": ["pescatarian"], "category": "arroces", "allergens": [6, 7, 8, 10, 11], "subcategory_es": "para_una_persona", "subcategory_en": "For one person" },
+    { "name_es": "Arroz meloso con bogavante", "name_en": "Mellow rice with lobster", "name_ru": "Кремовый рис с лобстером", "description_es": "", "description_en": "", "description_ru": "", "price": "22,5 €", "image": "arroz bogovante.png", "tags": ["pescatarian"], "category": "arroces", "allergens": [6, 7, 8, 11], "subcategory_es": "minimo_dos_personas", "subcategory_en": "Minimum for two people" },
+    { "name_es": "Fideuá de pulpo con alcachofa", "name_en": "Short noodles with octopus and artichokes", "name_ru": "Фидеуа с осьминогом и артишоками", "description_es": "", "description_en": "", "description_ru": "", "price": "25,7 €", "image": "", "tags": ["pescatarian"], "category": "arroces", "allergens": [1, 4, 6, 7, 10, 12], "subcategory_es": "minimo_dos_personas", "subcategory_en": "Minimum for two people" },
+    { "name_es": "Arroz con chuletón y bacon", "name_en": "Rice with T-bone steak and bacon", "name_ru": "Рис со стейком и беконом", "description_es": "", "description_en": "", "description_ru": "", "price": "25,7 €", "image": "", "tags": [], "category": "arroces", "allergens": [4, 10], "subcategory_es": "minimo_dos_personas", "subcategory_en": "Minimum for two people" },
+    { "name_es": "Arroz con magret de pato y setas", "name_en": "Duck breast with rice and mushrooms", "name_ru": "Рис с утиной грудкой и грибами", "description_es": "", "description_en": "", "description_ru": "", "price": "25,7 €", "image": "", "tags": [], "category": "arroces", "allergens": [4, 10], "subcategory_es": "minimo_dos_personas", "subcategory_en": "Minimum for two people" }
   ],
   "menu_infantil": [
-    {
-      "name_es": "Nuggets de pollo con patatas y ensalada",
-      "name_ru": "Наггетсы с картофелем и салатом",
-      "description_es": "",
-      "description_ru": "",
-      "price": "12 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Arroz con tomate y huevo frito",
-      "name_ru": "Рис с томатом и яичницей",
-      "description_es": "",
-      "description_ru": "",
-      "price": "12 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Espaguetis con salsa boloñesa",
-      "name_ru": "Спагетти болоньезе",
-      "description_es": "",
-      "description_ru": "",
-      "price": "12 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Salchicha con puré de patatas y tomate cherry",
-      "name_ru": "Сосиска с пюре и черри",
-      "description_es": "",
-      "description_ru": "",
-      "price": "12 €",
-      "image": "/placeholder.svg"
-    }
+    { "name_es": "Nuggets de pollo con patatas y ensalada", "name_en": "Chicken nuggets with french fries, lettuce and cherry tomatoes", "name_ru": "Куриные наггетсы с картофелем фри и салатом", "description_es": "", "description_en": "", "description_ru": "", "price": "12 €", "image": "", "tags": [], "category": "menu_infantil", "allergens": [1, 8] },
+    { "name_es": "Arroz con tomate y huevo frito", "name_en": "White rice with tomato and fried egg", "name_ru": "Рис с томатом и яичницей", "description_es": "", "description_en": "", "description_ru": "", "price": "12 €", "image": "", "tags": ["vegetarian"], "category": "menu_infantil", "allergens": [8, 10] },
+    { "name_es": "Espaguetis con salsa boloñesa", "name_en": "Spaghetti with bolognese sauce", "name_ru": "Спагетти с болоньезе", "description_es": "", "description_en": "", "description_ru": "", "price": "12 €", "image": "", "tags": [], "category": "menu_infantil", "allergens": [1, 8, 12] },
+    { "name_es": "Salchicha con puré de patatas y tomate cherry", "name_en": "Sausage with mashed potatoes and cherry tomatoes", "name_ru": "Сосиска с пюре и черри", "description_es": "", "description_en": "", "description_ru": "", "price": "12 €", "image": "", "tags": [], "category": "menu_infantil", "allergens": [1, 8, 12] }
   ],
   "postres": [
-    {
-      "name_es": "Tarta de queso",
-      "name_ru": "Чизкейк",
-      "description_es": "",
-      "description_ru": "",
-      "price": "5,2 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tarta de zanahoria",
-      "name_ru": "Морковный торт",
-      "description_es": "",
-      "description_ru": "",
-      "price": "5,4 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tarta de chocolate con cerezas",
-      "name_ru": "Шоколадный торт с вишней",
-      "description_es": "",
-      "description_ru": "",
-      "price": "5,7 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Tarta Red Velvet",
-      "name_ru": "Торт ред вельвет",
-      "description_es": "",
-      "description_ru": "",
-      "price": "5,9 €",
-      "image": "/placeholder.svg"
-    },
-    {
-      "name_es": "Leyenda de alérgenos",
-      "name_ru": "Leyenda de alérgenos",
-      "description_es": "",
-      "description_ru": "",
-      "price": "—",
-      "image": "/placeholder.svg"
-    }
+    { "name_es": "Tarta de queso", "name_en": "Cheesecake", "name_ru": "Чизкейк", "description_es": "Tarta de queso cremosa con base de galleta", "description_en": "Creamy cheesecake with biscuit base", "description_ru": "Кремовый чизкейк на песочной основе", "price": "5,2 €", "image": "tarta de queso.jpg", "tags": ["vegetarian"], "category": "postres", "allergens": [1, 10, 12] },
+    { "name_es": "Tarta de zanahoria", "name_en": "Carrot cake", "name_ru": "Морковный торт", "description_es": "Tarta de zanahoria con crema de queso", "description_en": "Carrot cake with cream cheese frosting", "description_ru": "Морковный торт с сырным кремом", "price": "5,4 €", "image": "tarta de zanahoria.jpg", "tags": ["vegetarian"], "category": "postres", "allergens": [1, 2, 10, 12] },
+    { "name_es": "Tarta de chocolate con cerezas", "name_en": "Chocolate cake with cherries", "name_ru": "Шоколадный торт с вишней", "description_es": "Tarta de chocolate con cerezas y ganache", "description_en": "Chocolate cake with cherries and ganache", "description_ru": "Шоколадный торт с вишней и ганашем", "price": "5,7 €", "image": "tarta de chocolate.jpg", "tags": ["vegetarian"], "category": "postres", "allergens": [1, 10, 12] },
+    { "name_es": "Tarta Red Velvet", "name_en": "Red velvet cake", "name_ru": "Торт Ред Велвет", "description_es": "Tarta Red Velvet con frosting de queso crema", "description_en": "Red velvet cake with cream cheese frosting", "description_ru": "Красный бархат с сырным кремом", "price": "5,9 €", "image": "", "tags": ["vegetarian"], "category": "postres", "allergens": [1, 10, 12] }
+  ],
+  "pizzas_feliz": [
+    { "name_es": "Diavola", "name_en": "Diavola", "name_ru": "Диавола", "description_es": "Tomate, mozzarella, salami picante, pimiento picante, orégano", "description_en": "Tomato, mozzarella, spicy salami, chilli pepper, oregano", "description_ru": "Томат, моцарелла, острая салями, перец чили, орегано", "price": "13 €", "image": "", "tags": [], "category": "pizzas_feliz", "allergens": [1, 8, 12] },
+    { "name_es": "Salami napoletana", "name_en": "Neapolitan salami", "name_ru": "Неаполитанская салями", "description_es": "Tomate, mozzarella, salami napoletano, orégano", "description_en": "Tomato, mozzarella, Neapolitan salami, oregano", "description_ru": "Томат, моцарелла, неаполитанская салями, орегано", "price": "11 €", "image": "", "tags": [], "category": "pizzas_feliz", "allergens": [1, 8, 12] },
+    { "name_es": "York", "name_en": "York ham", "name_ru": "Ветчина Йорк", "description_es": "Tomate, mozzarella, jamón york, orégano", "description_en": "Tomato, mozzarella, York ham, oregano", "description_ru": "Томат, моцарелла, ветчина, орегано", "price": "11 €", "image": "", "tags": [], "category": "pizzas_feliz", "allergens": [1, 8, 12] },
+    { "name_es": "Focaccia", "name_en": "Focaccia", "name_ru": "Фокачча", "description_es": "Romero, ajo y parmesano", "description_en": "Rosemary, garlic and parmesan", "description_ru": "Розмарин, чеснок и пармезан", "price": "5 €", "image": "", "tags": ["vegetarian"], "category": "pizzas_feliz", "allergens": [1, 12] },
+    { "name_es": "Pancetta y cotto", "name_en": "Pancetta and cotto", "name_ru": "Панчетта и варёная ветчина", "description_es": "Tomate, mozzarella, pancetta, cotto (jamón cocido), champiñones, salsa verde", "description_en": "Tomato, mozzarella, pancetta, cooked ham, mushrooms, green sauce", "description_ru": "Томат, моцарелла, панчетта, варёная ветчина, грибы, зелёный соус", "price": "15 €", "image": "", "tags": [], "category": "pizzas_feliz", "allergens": [1, 8, 12] },
+    { "name_es": "Jamón y rúcula", "name_en": "Ham and rocket", "name_ru": "Хамон и руккола", "description_es": "Tomate, mozzarella, jamón serrano, rúcula", "description_en": "Tomato, mozzarella, serrano ham, rocket", "description_ru": "Томат, моцарелла, хамон серрано, руккола", "price": "14 €", "image": "", "tags": [], "category": "pizzas_feliz", "allergens": [1, 8, 12] },
+    { "name_es": "Marinara", "name_en": "Marinara", "name_ru": "Маринара", "description_es": "Tomate, ajo, orégano, AOVE (sin queso)", "description_en": "Tomato, garlic, oregano, extra virgin olive oil (no cheese)", "description_ru": "Томат, чеснок, орегано, оливковое масло (без сыра)", "price": "9 €", "image": "", "tags": ["vegan"], "category": "pizzas_feliz", "allergens": [1] },
+    { "name_es": "Margherita", "name_en": "Margherita", "name_ru": "Маргарита", "description_es": "Tomate, mozzarella, albahaca fresca, AOVE", "description_en": "Tomato, mozzarella, fresh basil, extra virgin olive oil", "description_ru": "Томат, моцарелла, свежий базилик, оливковое масло", "price": "10 €", "image": "", "tags": ["vegetarian"], "category": "pizzas_feliz", "allergens": [1, 12] },
+    { "name_es": "Vega", "name_en": "Vega", "name_ru": "Вега", "description_es": "Tomate, calabacín, berenjena, pimiento rojo, cebolla, champiñones, aceitunas negras, orégano, pimienta, AOVE (sin mozzarella)", "description_en": "Tomato, courgette, aubergine, red pepper, onion, mushrooms, black olives, oregano, pepper, EVOO (no mozzarella)", "description_ru": "Томат, кабачок, баклажан, перец, лук, грибы, маслины, орегано, перец (без моцареллы)", "price": "12 €", "image": "", "tags": ["vegan"], "category": "pizzas_feliz", "allergens": [1] },
+    { "name_es": "Capri", "name_en": "Capri", "name_ru": "Капри", "description_es": "Tomate, mozzarella, jamón cocido (cotto), champiñones, aceitunas negras", "description_en": "Tomato, mozzarella, cooked ham, mushrooms, black olives", "description_ru": "Томат, моцарелла, варёная ветчина, грибы, маслины", "price": "13 €", "image": "", "tags": [], "category": "pizzas_feliz", "allergens": [1, 8, 12] },
+    { "name_es": "Pepperoni (picante)", "name_en": "Pepperoni (spicy)", "name_ru": "Пепперони (острая)", "description_es": "Tomate, mozzarella, salami picante, pimiento picante, orégano", "description_en": "Tomato, mozzarella, spicy salami, chilli pepper, oregano", "description_ru": "Томат, моцарелла, острая салями, перец чили, орегано", "price": "11 €", "image": "", "tags": [], "category": "pizzas_feliz", "allergens": [1, 8, 12] },
+    { "name_es": "7-formaggi", "name_en": "7 cheeses", "name_ru": "7 сыров", "description_es": "Mozzarella, taleggio, pecorino romano, gorgonzola, scamorza affumicata, parmigiano reggiano, emmental", "description_en": "Mozzarella, taleggio, pecorino romano, gorgonzola, smoked scamorza, parmigiano reggiano, emmental", "description_ru": "Моцарелла, таледжо, пекорино, горгонзола, копчёная скаморца, пармезан, эмменталь", "price": "14 €", "image": "", "tags": ["vegetarian"], "category": "pizzas_feliz", "allergens": [1, 12] },
+    { "name_es": "Pizza autunnale", "name_en": "Autumn pizza", "name_ru": "Осенняя пицца", "description_es": "Tomate, mozzarella, setas, gorgonzola, albahaca, crema balsámica", "description_en": "Tomato, mozzarella, mushrooms, gorgonzola, basil, balsamic cream", "description_ru": "Томат, моцарелла, грибы, горгонзола, базилик, бальзамический крем", "price": "13 €", "image": "", "tags": ["vegetarian"], "category": "pizzas_feliz", "allergens": [1, 12] },
+    { "name_es": "Pera y gorgola", "name_en": "Pear and gorgonzola", "name_ru": "Груша и горгонзола", "description_es": "Mozzarella, gorgonzola, pera, miel", "description_en": "Mozzarella, gorgonzola, pear, honey", "description_ru": "Моцарелла, горгонзола, груша, мёд", "price": "16 €", "image": "", "tags": ["vegetarian"], "category": "pizzas_feliz", "allergens": [1, 12] },
+    { "name_es": "Bianca di foie", "name_en": "Bianca with foie", "name_ru": "Бьянка с фуа-гра", "description_es": "Mozzarella, queso taleggio, foie mi-cuit, cebolla confitada, boletus", "description_en": "Mozzarella, taleggio cheese, mi-cuit foie gras, confit onion, porcini", "description_ru": "Моцарелла, таледжо, фуа-гра ми-кюи, карамелизированный лук, белые грибы", "price": "16 €", "image": "", "tags": [], "category": "pizzas_feliz", "allergens": [1, 12] },
+    { "name_es": "Mortadella con burrata", "name_en": "Mortadella with burrata", "name_ru": "Мортаделла с бурратой", "description_es": "Crema de trufa negra, champiñones, mozzarella, mortadella, burrata, pistacho", "description_en": "Black truffle cream, mushrooms, mozzarella, mortadella, burrata, pistachio", "description_ru": "Крем из чёрной трюфели, грибы, моцарелла, мортаделла, буррата, фисташки", "price": "16 €", "image": "", "tags": [], "category": "pizzas_feliz", "allergens": [1, 2, 12] }
+  ],
+  "menu_temporada": [
+    { "name_es": "Borsch (ternera)", "name_en": "Borscht (beef)", "name_ru": "Борщ (с говядиной)", "description_es": "Sopa de remolacha con ternera, col, zanahoria, patata y cebolla; con crema agria y eneldo fresco", "description_en": "Beetroot soup with beef, cabbage, carrot, potato and onion; with sour cream and fresh dill", "description_ru": "Суп из свёклы с говядиной, капустой, морковью, картофелем и луком; со сметаной и свежим укропом", "price": "14 €", "image": "borshch.png", "tags": [], "category": "menu_temporada", "allergens": [1, 10, 12] },
+    { "name_es": "Goulash (ternera con verduras y setas)", "name_en": "Goulash (beef with vegetables and mushrooms)", "name_ru": "Гуляш (говядина с овощами и грибами)", "description_es": "Guiso espeso de ternera con cebolla, zanahoria, patatas y setas en salsa de tomate y pimentón", "description_en": "Thick beef stew with onion, carrot, potatoes and mushrooms in tomato and paprika sauce", "description_ru": "Густой говяжий гуляш с луком, морковью, картофелем и грибами в томатно-паприковом соусе", "price": "17 €", "image": "Gulash.png", "tags": [], "category": "menu_temporada", "allergens": [1] },
+    { "name_es": "Shakshuka", "name_en": "Shakshuka", "name_ru": "Шакшука", "description_es": "Huevos en salsa de tomate y pimientos, servidos con pan tostado", "description_en": "Eggs in tomato and pepper sauce, served with toasted bread", "description_ru": "Яйца в томатно-перечном соусе с поджаренным хлебом", "price": "10 €", "image": "", "tags": ["vegetarian"], "category": "menu_temporada", "allergens": [1, 10] },
+    { "name_es": "Sopa de abuela (pollo, zanahoria y fideos)", "name_en": "Grandmother's soup (chicken, carrot and noodles)", "name_ru": "Бабушкин суп (курица, морковь и лапша)", "description_es": "Caldo casero de pollo con zanahorias, apio, fideos finos y perejil", "description_en": "Homemade chicken broth with carrots, celery, fine noodles and parsley", "description_ru": "Домашний куриный бульон с морковью, сельдереем, тонкой лапшой и петрушкой", "price": "7 €", "image": "", "tags": [], "category": "menu_temporada", "allergens": [1, 4] },
+    { "name_es": "Tom Yam (sopa tailandesa de coco y gambas)", "name_en": "Tom Yum (Thai coconut and prawn soup)", "name_ru": "Том Ям (тайский суп с кокосом и креветками)", "description_es": "Sopa con leche de coco, gambas, setas, citronela, jengibre, lima y chile", "description_en": "Soup with coconut milk, prawns, mushrooms, lemongrass, ginger, lime and chilli", "description_ru": "Суп на кокосовом молоке с креветками, грибами, лемонграссом, имбирём, лаймом и чили", "price": "12 €", "image": "sopa tom yam.jpg", "tags": ["pescatarian"], "category": "menu_temporada", "allergens": [6, 11] },
+    { "name_es": "Leniwie golubtsi", "name_en": "Lazy golubtsi", "name_ru": "Ленивые голубцы", "description_es": "Albóndigas de carne y arroz en salsa de tomate", "description_en": "Meat and rice meatballs in tomato sauce", "description_ru": "Тефтели из мяса и риса в томатном соусе", "price": "12 €", "image": "lenivie golubtsi.png", "tags": [], "category": "menu_temporada", "allergens": [1, 8] },
+    { "name_es": "Filete ruso con puré de patata", "name_en": "Russian cutlet with mashed potato", "name_ru": "Русская котлета с пюре", "description_es": "Carne picada dorada a la plancha con puré de patata y cebolla caramelizada", "description_en": "Pan-fried minced meat with mashed potato and caramelised onion", "description_ru": "Обжаренный фарш с картофельным пюре и карамелизированным луком", "price": "12 €", "image": "filetes russo.png", "tags": [], "category": "menu_temporada", "allergens": [1, 10] },
+    { "name_es": "Solyanka (sopa tradicional eslava)", "name_en": "Solyanka (traditional Slavic soup)", "name_ru": "Солянка (традиционный славянский суп)", "description_es": "Sopa espesa con carne ahumada, embutidos, pepinillos, tomate, limón y aceitunas", "description_en": "Thick soup with smoked meat, sausages, pickles, tomato, lemon and olives", "description_ru": "Густой суп с копчёным мясом, колбасой, солёными огурцами, томатом, лимоном и оливками", "price": "15 €", "image": "", "tags": [], "category": "menu_temporada", "allergens": [8] }
   ]
 }
