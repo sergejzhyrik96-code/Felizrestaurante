@@ -4,6 +4,7 @@ import { Menu, X, ShoppingCart } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useCart } from "@/hooks/useCart";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useReservationModal } from "@/components/ReservationModal";
 
 const navLinks = [
   { labelKey: "nav.home", path: "/" },
@@ -20,6 +21,7 @@ const Navbar = () => {
   const location = useLocation();
   const { itemCount } = useCart();
   const { t, locale, setLocale } = useLanguage();
+  const { openReservationModal } = useReservationModal();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
@@ -62,7 +64,19 @@ const Navbar = () => {
 
           {/* Desktop nav */}
           <div className="hidden items-center gap-6 lg:flex">
-            {navLinks.map((link) => (
+            {navLinks.map((link) =>
+              link.path === "/reservations" ? (
+                <button
+                  key={link.path}
+                  type="button"
+                  onClick={() => { openReservationModal(); }}
+                  className={`relative text-sm font-medium tracking-wide transition-colors duration-300 ${
+                    navBg ? "text-muted-foreground hover:text-foreground" : "text-white/70 hover:text-white"
+                  }`}
+                >
+                  {t(link.labelKey)}
+                </button>
+              ) : (
               <Link
                 key={link.path}
                 to={link.path}
@@ -175,14 +189,24 @@ const Navbar = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.08 }}
               >
-                <Link
-                  to={link.path}
-                  className={`font-display text-3xl font-medium tracking-wide transition-colors ${
-                    location.pathname === link.path ? "text-primary" : "text-foreground"
-                  }`}
-                >
-                  {t(link.labelKey)}
-                </Link>
+                {link.path === "/reservations" ? (
+                  <button
+                    type="button"
+                    onClick={() => { setMobileOpen(false); openReservationModal(); }}
+                    className="font-display text-3xl font-medium tracking-wide transition-colors text-foreground"
+                  >
+                    {t(link.labelKey)}
+                  </button>
+                ) : (
+                  <Link
+                    to={link.path}
+                    className={`font-display text-3xl font-medium tracking-wide transition-colors ${
+                      location.pathname === link.path ? "text-primary" : "text-foreground"
+                    }`}
+                  >
+                    {t(link.labelKey)}
+                  </Link>
+                )}
               </motion.div>
             ))}
           </motion.div>

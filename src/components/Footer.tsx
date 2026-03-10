@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { MapPin, Phone, Mail, Instagram, Facebook, MapPinned, Star } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useReservationModal } from "@/components/ReservationModal";
 import { getRestaurantCallUrl, RESTAURANT_PHONE_DISPLAY } from "@/lib/notifications";
 
 const FACEBOOK_URL = "https://www.facebook.com/felizrestaurante";
@@ -18,6 +19,7 @@ const footerLinks = [
 
 const Footer = () => {
   const { t } = useLanguage();
+  const { openReservationModal } = useReservationModal();
 
   return (
     <footer className="border-t border-border bg-secondary py-16">
@@ -39,15 +41,26 @@ const Footer = () => {
           <div>
             <h4 className="text-sm font-semibold text-foreground">{t("footer.navigate")}</h4>
             <div className="mt-3 flex flex-col gap-2">
-              {footerLinks.map((link) => (
-                <Link
-                  key={link.path}
-                  to={link.path}
-                  className="text-sm text-muted-foreground transition-colors hover:text-foreground"
-                >
-                  {t(link.labelKey)}
-                </Link>
-              ))}
+              {footerLinks.map((link) =>
+                link.path === "/reservations" ? (
+                  <button
+                    key={link.path}
+                    type="button"
+                    onClick={openReservationModal}
+                    className="text-left text-sm text-muted-foreground transition-colors hover:text-foreground"
+                  >
+                    {t(link.labelKey)}
+                  </button>
+                ) : (
+                  <Link
+                    key={link.path}
+                    to={link.path}
+                    className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+                  >
+                    {t(link.labelKey)}
+                  </Link>
+                )
+              )}
             </div>
           </div>
 

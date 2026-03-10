@@ -3,12 +3,14 @@ import { useSearchParams } from "react-router-dom";
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
 import Footer from "@/components/Footer";
+import { useReservationModal } from "@/components/ReservationModal";
 
 export default function CancelPage() {
   const [searchParams] = useSearchParams();
   const token = searchParams.get("token");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
+  const { openReservationModal } = useReservationModal();
 
   useEffect(() => {
     if (!token?.trim()) {
@@ -58,12 +60,13 @@ export default function CancelPage() {
             <p className="mt-4 text-muted-foreground">
               Si fue un error, puedes hacer una nueva reserva desde la página de reservas.
             </p>
-            <a
-              href="/reservations"
+            <button
+              type="button"
+              onClick={openReservationModal}
               className="mt-8 inline-block rounded-full bg-foreground px-6 py-3 text-sm font-semibold text-background transition-all hover:bg-primary hover:text-primary-foreground"
             >
               Hacer otra reserva
-            </a>
+            </button>
           </motion.div>
         )}
 

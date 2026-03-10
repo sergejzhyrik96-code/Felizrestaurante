@@ -7,16 +7,18 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight, Truck, CalendarDays, UtensilsCrossed } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useReservationModal } from "@/components/ReservationModal";
 import cateringHero from "@/assets/catering-hero.jpg";
 
 const GASTROBOX_IMAGE = "/images/gastroboxes/Box Tres Sabores.jpeg";
 
 const HomePage = () => {
   const { t } = useLanguage();
+  const { openReservationModal } = useReservationModal();
   const services = [
     { icon: UtensilsCrossed, titleKey: "home.catering", descKey: "home.cateringDesc", link: "/catering", image: cateringHero },
     { icon: Truck, titleKey: "home.gastroBoxes", descKey: "home.gastroBoxesDesc", link: "/gastro-boxes", image: GASTROBOX_IMAGE },
-    { icon: CalendarDays, titleKey: "home.reservations", descKey: "home.reservationsDesc", link: "/reservations", image: null },
+    { icon: CalendarDays, titleKey: "home.reservations", descKey: "home.reservationsDesc", openReservation: true },
   ];
   return (
     <div className="min-h-screen">
@@ -49,28 +51,45 @@ const HomePage = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: i * 0.15 }}
               >
-                <Link
-                  to={service.link}
-                  className="group block overflow-hidden rounded-2xl border border-border bg-card transition-all duration-500 hover:shadow-luxury hover:-translate-y-1"
-                >
-                  {service.image && (
-                    <div className="overflow-hidden">
-                      <img
-                        src={service.image}
-                        alt={t(service.titleKey)}
-                        className="h-48 w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                      />
+                {"openReservation" in service && service.openReservation ? (
+                  <button
+                    type="button"
+                    onClick={openReservationModal}
+                    className="group block w-full overflow-hidden rounded-2xl border border-border bg-card text-left transition-all duration-500 hover:shadow-luxury hover:-translate-y-1"
+                  >
+                    <div className="p-6">
+                      <service.icon size={24} className="text-primary" />
+                      <h3 className="mt-3 font-display text-xl font-semibold text-foreground">{t(service.titleKey)}</h3>
+                      <p className="mt-2 text-sm text-muted-foreground">{t(service.descKey)}</p>
+                      <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-primary transition-colors group-hover:gap-2">
+                        {t("home.explore")} <ArrowRight size={14} />
+                      </span>
                     </div>
-                  )}
-                  <div className="p-6">
-                    <service.icon size={24} className="text-primary" />
-                    <h3 className="mt-3 font-display text-xl font-semibold text-foreground">{t(service.titleKey)}</h3>
-                    <p className="mt-2 text-sm text-muted-foreground">{t(service.descKey)}</p>
-                    <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-primary transition-colors group-hover:gap-2">
-                      {t("home.explore")} <ArrowRight size={14} />
-                    </span>
-                  </div>
-                </Link>
+                  </button>
+                ) : (
+                  <Link
+                    to={service.link!}
+                    className="group block overflow-hidden rounded-2xl border border-border bg-card transition-all duration-500 hover:shadow-luxury hover:-translate-y-1"
+                  >
+                    {service.image && (
+                      <div className="overflow-hidden">
+                        <img
+                          src={service.image}
+                          alt={t(service.titleKey)}
+                          className="h-48 w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        />
+                      </div>
+                    )}
+                    <div className="p-6">
+                      <service.icon size={24} className="text-primary" />
+                      <h3 className="mt-3 font-display text-xl font-semibold text-foreground">{t(service.titleKey)}</h3>
+                      <p className="mt-2 text-sm text-muted-foreground">{t(service.descKey)}</p>
+                      <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-primary transition-colors group-hover:gap-2">
+                        {t("home.explore")} <ArrowRight size={14} />
+                      </span>
+                    </div>
+                  </Link>
+                )}
               </motion.div>
             ))}
           </div>
@@ -99,14 +118,15 @@ const HomePage = () => {
             <p className="mt-4 text-base text-white/70 md:text-lg">
               {t("home.ctaSubtitle")}
             </p>
-            <Link
-              to="/reservations"
+            <button
+              type="button"
+              onClick={openReservationModal}
               className="mt-8 inline-flex items-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-semibold text-foreground shadow-luxury transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl"
             >
               <CalendarDays size={18} />
               {t("home.reserveNow")}
               <ArrowRight size={16} />
-            </Link>
+            </button>
           </motion.div>
         </div>
       </section>

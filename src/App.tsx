@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { CartProvider } from "@/hooks/useCart";
 import { LanguageProvider } from "@/contexts/LanguageContext";
+import { ReservationModalProvider } from "@/components/ReservationModal";
 import Navbar from "@/components/Navbar";
 import FloatingReservationButton from "@/components/FloatingReservationButton";
 import HomePage from "@/pages/HomePage";
@@ -16,7 +17,6 @@ import CateringGastronomicosPage from "@/pages/CateringGastronomicosPage";
 import CateringInfantilesPage from "@/pages/CateringInfantilesPage";
 import CateringAdultosPage from "@/pages/CateringAdultosPage";
 import GalleryPage from "@/pages/GalleryPage";
-import ReservationsPage from "@/pages/ReservationsPage";
 import CartPage from "@/pages/CartPage";
 import CancelPage from "@/pages/CancelPage";
 import AdminPage from "@/pages/AdminPage";
@@ -39,6 +39,7 @@ const App = () => (
     <TooltipProvider>
       <LanguageProvider>
         <CartProvider>
+          <ReservationModalProvider>
           <Toaster />
           <Sonner />
           <BrowserRouter>
@@ -54,13 +55,13 @@ const App = () => (
               <Route path="/catering/infantiles" element={<CateringInfantilesPage />} />
               <Route path="/catering/adultos" element={<CateringAdultosPage />} />
               <Route path="/gallery" element={<GalleryPage />} />
-              <Route path="/reservations" element={<ReservationsPage />} />
               <Route path="/cart" element={<CartPage />} />
               <Route path="/cancel" element={<CancelPage />} />
               <Route path="/admin" element={<AdminPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>
+          </ReservationModalProvider>
         </CartProvider>
       </LanguageProvider>
     </TooltipProvider>

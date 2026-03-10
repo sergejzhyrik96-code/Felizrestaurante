@@ -2,11 +2,13 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight, CalendarDays, Phone, UtensilsCrossed } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useReservationModal } from "@/components/ReservationModal";
 
 const HERO_IMAGE = "/images/hero-foto/Hero foto.png";
 
 const Hero = () => {
   const { t } = useLanguage();
+  const { openReservationModal } = useReservationModal();
   return (
     <section className="relative min-h-screen flex items-end overflow-hidden">
       {/* Background image with parallax feel */}
@@ -71,14 +73,15 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 1.8 }}
             className="mt-10 flex flex-wrap gap-4"
           >
-            <Link
-              to="/reservations"
+            <button
+              type="button"
+              onClick={openReservationModal}
               className="group flex items-center gap-2 rounded-full bg-gradient-gold px-8 py-4 text-sm font-semibold text-white shadow-glow transition-all hover:shadow-lg hover:scale-[1.02]"
             >
               <CalendarDays size={18} />
               {t("hero.reserveTable")}
               <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
-            </Link>
+            </button>
             <Link
               to="/menu"
               className="group flex items-center gap-2 rounded-full border border-white/30 px-8 py-4 text-sm font-semibold text-white backdrop-blur-sm transition-all hover:bg-white/10"
